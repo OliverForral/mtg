@@ -1,6 +1,8 @@
-export const rna = {
+// https://api.scryfall.com/cards/search?format=json&include_extras=false&include_multilingual=false&order=name&page=1&q=s%3Arna+-is%3Afunny&unique=cards
+
+export const rna01 = {
   object: "list",
-  total_cards: 263,
+  total_cards: 268,
   has_more: true,
   next_page:
     "https://api.scryfall.com/cards/search?format=json\u0026include_extras=false\u0026include_multilingual=false\u0026order=name\u0026page=2\u0026q=s%3Arna+-is%3Afunny\u0026unique=cards",
@@ -9,8 +11,9 @@ export const rna = {
       object: "card",
       id: "1e8a43c1-42d1-45ef-8a63-4b87775a6e88",
       oracle_id: "132ca99a-a3c7-4ed6-b4d0-0edcd7140ca2",
-      multiverse_ids: [],
+      multiverse_ids: [457295],
       mtgo_id: 71302,
+      arena_id: 69279,
       tcgplayer_id: 182492,
       name: "Absorb",
       lang: "en",
@@ -85,9 +88,11 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 5504,
-      usd: "2.18",
+      edhrec_rank: 5503,
+      usd: "2.06",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457295",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Absorb\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Absorb",
@@ -107,8 +112,9 @@ export const rna = {
       object: "card",
       id: "1f2328c4-7344-48bf-b515-977499bcfd1c",
       oracle_id: "9d08af23-9f4a-4097-9abc-3b17475ab744",
-      multiverse_ids: [],
+      multiverse_ids: [457235],
       mtgo_id: 71182,
+      arena_id: 69219,
       tcgplayer_id: 183383,
       name: "Act of Treason",
       lang: "en",
@@ -137,7 +143,7 @@ export const rna = {
       cmc: 3.0,
       type_line: "Sorcery",
       oracle_text:
-        "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)",
+        "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
       colors: ["R"],
       color_identity: ["R"],
       legalities: {
@@ -185,7 +191,10 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       edhrec_rank: 2924,
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457235",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Act+of+Treason\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Act+of+Treason",
@@ -205,8 +214,9 @@ export const rna = {
       object: "card",
       id: "671c94c1-df52-4985-ad78-3e1c9c78df18",
       oracle_id: "a0cd19c1-9125-4627-83ba-d42c489b4e7d",
-      multiverse_ids: [],
+      multiverse_ids: [457296],
       mtgo_id: 71304,
+      arena_id: 69280,
       tcgplayer_id: 182213,
       name: "Aeromunculus",
       lang: "en",
@@ -285,8 +295,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.12",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457296",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Aeromunculus\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Aeromunculus",
@@ -306,8 +318,9 @@ export const rna = {
       object: "card",
       id: "7a58c77f-7c15-44f4-8011-6046482a2d08",
       oracle_id: "c6861c50-d336-4352-a76d-ec22a86ec09e",
-      multiverse_ids: [],
+      multiverse_ids: [457236],
       mtgo_id: 71184,
+      arena_id: 69220,
       tcgplayer_id: 182953,
       name: "Amplifire",
       lang: "en",
@@ -382,8 +395,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.65",
+      usd: "0.40",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457236",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Amplifire\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Amplifire",
@@ -403,8 +418,9 @@ export const rna = {
       object: "card",
       id: "ee7b5ae5-0f6b-4f45-8597-4e6212d2ad0e",
       oracle_id: "507d2f27-08a9-4938-b191-5734cda42ef2",
-      multiverse_ids: [],
+      multiverse_ids: [457146],
       mtgo_id: 71004,
+      arena_id: 69130,
       tcgplayer_id: 183088,
       name: "Angelic Exaltation",
       lang: "en",
@@ -479,8 +495,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.19",
+      usd: "0.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457146",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Angelic+Exaltation\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Angelic+Exaltation",
@@ -500,8 +518,9 @@ export const rna = {
       object: "card",
       id: "80164e61-3e94-4e10-9bd1-518b8dc7fc4c",
       oracle_id: "fcfcac6b-6d26-4ffe-ae9e-b0ee7fa49787",
-      multiverse_ids: [],
+      multiverse_ids: [457145],
       mtgo_id: 71002,
+      arena_id: 69129,
       tcgplayer_id: 183201,
       name: "Angel of Grace",
       lang: "en",
@@ -577,8 +596,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "17.40",
+      usd: "16.38",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457145",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Angel+of+Grace\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Angel+of+Grace",
@@ -598,8 +619,9 @@ export const rna = {
       object: "card",
       id: "f91ed618-7b0b-4a70-95ad-d9ed46e28692",
       oracle_id: "93ee2ea1-4f9b-47dd-b7d4-b0ed5a26d719",
-      multiverse_ids: [],
+      multiverse_ids: [457297],
       mtgo_id: 71306,
+      arena_id: 69281,
       tcgplayer_id: 183350,
       name: "Applied Biomancy",
       lang: "en",
@@ -674,8 +696,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.18",
+      usd: "0.17",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457297",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Applied+Biomancy\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Applied+Biomancy",
@@ -695,8 +719,9 @@ export const rna = {
       object: "card",
       id: "b209d219-b946-4226-a8b4-65a5f3837fac",
       oracle_id: "f2cf087a-d89a-4145-9394-945ce41c8cca",
-      multiverse_ids: [],
+      multiverse_ids: [457147],
       mtgo_id: 71006,
+      arena_id: 69131,
       tcgplayer_id: 183193,
       name: "Archway Angel",
       lang: "en",
@@ -773,8 +798,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.24",
+      usd: "0.21",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457147",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Archway+Angel\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Archway+Angel",
@@ -794,8 +821,9 @@ export const rna = {
       object: "card",
       id: "637c2d6a-e6b8-4dc5-81aa-da1b7384e006",
       oracle_id: "ccfb612a-762d-41a7-bc3d-268c6abf8e85",
-      multiverse_ids: [],
+      multiverse_ids: [457175],
       mtgo_id: 71062,
+      arena_id: 69159,
       tcgplayer_id: 183202,
       name: "Arrester's Admonition",
       lang: "en",
@@ -871,8 +899,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457175",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Arrester%27s+Admonition\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Arrester%27s+Admonition",
@@ -892,8 +922,9 @@ export const rna = {
       object: "card",
       id: "b075a6f2-5196-45e9-b062-f131f7b1a347",
       oracle_id: "6b70af46-ff27-4eec-9692-248b06248de6",
-      multiverse_ids: [],
+      multiverse_ids: [457148],
       mtgo_id: 71008,
+      arena_id: 69132,
       tcgplayer_id: 183348,
       name: "Arrester's Zeal",
       lang: "en",
@@ -969,8 +1000,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.11",
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457148",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Arrester%27s+Zeal\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Arrester%27s+Zeal",
@@ -990,8 +1023,9 @@ export const rna = {
       object: "card",
       id: "ea166114-2f9b-4ca6-b573-1f49f7485580",
       oracle_id: "06fa6719-aa4f-4857-8029-e42d01232645",
-      multiverse_ids: [],
+      multiverse_ids: [457205],
       mtgo_id: 71122,
+      arena_id: 69189,
       tcgplayer_id: 183203,
       name: "Awaken the Erstwhile",
       lang: "en",
@@ -1067,8 +1101,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "1.58",
+      usd: "1.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457205",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Awaken+the+Erstwhile\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Awaken+the+Erstwhile",
@@ -1088,8 +1124,9 @@ export const rna = {
       object: "card",
       id: "2f420b35-1f73-41c8-a15f-1aee4af0999c",
       oracle_id: "8f1d5c8d-98e1-47b7-8347-38887253e34a",
-      multiverse_ids: [],
+      multiverse_ids: [457265],
       mtgo_id: 71242,
+      arena_id: 69249,
       tcgplayer_id: 183412,
       name: "Axebane Beast",
       lang: "en",
@@ -1166,8 +1203,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.13",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457265",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Axebane+Beast\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Axebane+Beast",
@@ -1187,8 +1226,9 @@ export const rna = {
       object: "card",
       id: "93cf5412-c711-41b4-ab3b-7788a0a22228",
       oracle_id: "ad1712d8-809f-410c-8b91-ffe6fb8a69a1",
-      multiverse_ids: [],
+      multiverse_ids: [457387],
       mtgo_id: 71526,
+      arena_id: 69391,
       name: "Azorius Guildgate",
       lang: "en",
       released_at: "2019-01-25",
@@ -1266,6 +1306,8 @@ export const rna = {
       story_spotlight: false,
       edhrec_rank: 522,
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457387",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Azorius+Guildgate\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Azorius+Guildgate",
@@ -1285,8 +1327,9 @@ export const rna = {
       object: "card",
       id: "60befc28-2ab8-4b59-a33f-0328c5d2f995",
       oracle_id: "9adc1435-3094-427d-88f8-91d55c5a924d",
-      multiverse_ids: [],
+      multiverse_ids: [457298],
       mtgo_id: 71308,
+      arena_id: 69282,
       tcgplayer_id: 183352,
       name: "Azorius Knight-Arbiter",
       lang: "en",
@@ -1364,8 +1407,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.14",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457298",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Azorius+Knight-Arbiter\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Azorius+Knight-Arbiter",
@@ -1385,8 +1430,9 @@ export const rna = {
       object: "card",
       id: "13aed078-9e29-48e7-b145-5252362031a0",
       oracle_id: "ca13dda2-fbb0-4b6b-9126-3c8df04dee2b",
-      multiverse_ids: [],
+      multiverse_ids: [457375],
       mtgo_id: 71502,
+      arena_id: 69379,
       tcgplayer_id: 182833,
       name: "Azorius Locket",
       lang: "en",
@@ -1463,8 +1509,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.11",
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457375",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Azorius+Locket\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Azorius+Locket",
@@ -1484,8 +1532,9 @@ export const rna = {
       object: "card",
       id: "c2fddecd-e660-43de-bccc-52f60a089052",
       oracle_id: "bbfdb5eb-2140-4d50-a667-1b4ac75d03a5",
-      multiverse_ids: [],
+      multiverse_ids: [457299],
       mtgo_id: 71310,
+      arena_id: 69283,
       tcgplayer_id: 183204,
       name: "Azorius Skyguard",
       lang: "en",
@@ -1564,8 +1613,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.19",
+      usd: "0.20",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457299",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Azorius+Skyguard\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Azorius+Skyguard",
@@ -1585,8 +1636,9 @@ export const rna = {
       object: "card",
       id: "e635c433-0398-442a-856e-1869f6bf2cfd",
       oracle_id: "10a66403-606d-4814-9583-50cdcd6976e0",
-      multiverse_ids: [],
+      multiverse_ids: [457206],
       mtgo_id: 71124,
+      arena_id: 69190,
       tcgplayer_id: 183057,
       name: "Bankrupt in Blood",
       lang: "en",
@@ -1661,8 +1713,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.09",
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457206",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Bankrupt+in+Blood\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Bankrupt+in+Blood",
@@ -1682,8 +1736,9 @@ export const rna = {
       object: "card",
       id: "e72f4329-db6f-4284-b63e-55f22a0a0f6e",
       oracle_id: "796dc53d-5a0d-4d19-9fa4-f474a9d96041",
-      multiverse_ids: [],
+      multiverse_ids: [457300],
       mtgo_id: 71312,
+      arena_id: 69284,
       tcgplayer_id: 183035,
       name: "Basilica Bell-Haunt",
       lang: "en",
@@ -1761,8 +1816,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.13",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457300",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Basilica+Bell-Haunt\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Basilica+Bell-Haunt",
@@ -1782,8 +1839,9 @@ export const rna = {
       object: "card",
       id: "b5873efa-d573-4435-81ad-48df2ca5c7f2",
       oracle_id: "b8bb97a8-5f5d-48e9-a4c1-b4c20efe7739",
-      multiverse_ids: [],
+      multiverse_ids: [457365],
       mtgo_id: 71446,
+      arena_id: 69349,
       tcgplayer_id: 183205,
       name: "Bedeck // Bedazzle",
       lang: "en",
@@ -1796,17 +1854,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547235485",
+          "https://img.scryfall.com/cards/small/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547581992",
         normal:
-          "https://img.scryfall.com/cards/normal/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547235485",
+          "https://img.scryfall.com/cards/normal/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547581992",
         large:
-          "https://img.scryfall.com/cards/large/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547235485",
+          "https://img.scryfall.com/cards/large/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547581992",
         png:
-          "https://img.scryfall.com/cards/png/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.png?1547235485",
+          "https://img.scryfall.com/cards/png/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.png?1547581992",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547235485",
+          "https://img.scryfall.com/cards/art_crop/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547581992",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547235485"
+          "https://img.scryfall.com/cards/border_crop/front/b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2.jpg?1547581992"
       },
       mana_cost: "{B/R}{B/R} // {4}{B}{R}",
       cmc: 2.0,
@@ -1877,8 +1935,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.73",
+      usd: "0.68",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457365",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Bedeck+%2F%2F+Bedazzle\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Bedeck",
@@ -1898,8 +1958,9 @@ export const rna = {
       object: "card",
       id: "81e2b96b-ecf2-4dd9-bc9d-3c46ee8c59e6",
       oracle_id: "bceecc64-96f1-4e7b-8904-0aef90377764",
-      multiverse_ids: [],
+      multiverse_ids: [457301],
       mtgo_id: 71314,
+      arena_id: 69285,
       tcgplayer_id: 182230,
       name: "Bedevil",
       lang: "en",
@@ -1974,8 +2035,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "5.92",
+      usd: "5.98",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457301",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Bedevil\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Bedevil",
@@ -1995,8 +2058,9 @@ export const rna = {
       object: "card",
       id: "7b0cb4d6-350b-4e66-b035-dac7b3ba77cc",
       oracle_id: "b9000917-4f09-42f4-ae85-fc1ac7571d93",
-      multiverse_ids: [],
+      multiverse_ids: [457176],
       mtgo_id: 71064,
+      arena_id: 69160,
       tcgplayer_id: 183198,
       name: "Benthic Biomancer",
       lang: "en",
@@ -2074,8 +2138,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "1.53",
+      usd: "1.31",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457176",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Benthic+Biomancer\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Benthic+Biomancer",
@@ -2095,8 +2161,9 @@ export const rna = {
       object: "card",
       id: "6f11029a-b24d-4248-834f-b852b56857f6",
       oracle_id: "d2d84ba5-0d20-4ce3-8f1f-93cd9ef94f5f",
-      multiverse_ids: [],
+      multiverse_ids: [457266],
       mtgo_id: 71244,
+      arena_id: 69250,
       tcgplayer_id: 183312,
       name: "Biogenic Ooze",
       lang: "en",
@@ -2172,8 +2239,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "7.91",
+      usd: "7.20",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457266",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Biogenic+Ooze\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Biogenic+Ooze",
@@ -2193,8 +2262,9 @@ export const rna = {
       object: "card",
       id: "0dd73fb2-453f-40b9-8beb-dfa99e6a706e",
       oracle_id: "30812870-87c0-469c-95a5-811d5a181e72",
-      multiverse_ids: [],
+      multiverse_ids: [457267],
       mtgo_id: 71246,
+      arena_id: 69251,
       tcgplayer_id: 183076,
       name: "Biogenic Upgrade",
       lang: "en",
@@ -2270,8 +2340,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.27",
+      usd: "0.24",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457267",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Biogenic+Upgrade\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Biogenic+Upgrade",
@@ -2291,8 +2363,9 @@ export const rna = {
       object: "card",
       id: "d38c9891-36d1-4565-9c4a-1cd9dbf8c048",
       oracle_id: "923d44a9-774d-459c-9cec-1d5b081b51f0",
-      multiverse_ids: [],
+      multiverse_ids: [457302],
       mtgo_id: 71316,
+      arena_id: 69286,
       tcgplayer_id: 182952,
       name: "Biomancer's Familiar",
       lang: "en",
@@ -2369,8 +2442,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "2.25",
+      usd: "2.20",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457302",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Biomancer%27s+Familiar\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Biomancer%27s+Familiar",
@@ -2390,8 +2465,9 @@ export const rna = {
       object: "card",
       id: "f738545d-5483-45ec-bb31-d62b0fae9ea7",
       oracle_id: "b9cf9f1e-0280-43b6-9d58-262052dcb8a8",
-      multiverse_ids: [],
+      multiverse_ids: [457208],
       mtgo_id: 71128,
+      arena_id: 69192,
       tcgplayer_id: 183408,
       name: "Bladebrand",
       lang: "en",
@@ -2467,7 +2543,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457208",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Bladebrand\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Bladebrand",
@@ -2487,8 +2566,9 @@ export const rna = {
       object: "card",
       id: "099bc474-e656-4167-b105-3a3a36c0b23e",
       oracle_id: "34400cf5-b8c4-4cf2-9186-51f12037cc51",
-      multiverse_ids: [],
+      multiverse_ids: [457207],
       mtgo_id: 71126,
+      arena_id: 69191,
       tcgplayer_id: 183058,
       name: "Blade Juggler",
       lang: "en",
@@ -2567,6 +2647,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457207",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Blade+Juggler\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Blade+Juggler",
@@ -2586,8 +2668,9 @@ export const rna = {
       object: "card",
       id: "5faba6c8-3463-47c1-ba01-09eb87fcb2d5",
       oracle_id: "43985bbc-a0f6-4812-984e-392bc8562633",
-      multiverse_ids: [],
+      multiverse_ids: [457389],
       mtgo_id: 71530,
+      arena_id: 69393,
       tcgplayer_id: 182838,
       name: "Blood Crypt",
       lang: "en",
@@ -2664,8 +2747,10 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       edhrec_rank: 94,
-      usd: "8.07",
+      usd: "7.96",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457389",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Blood+Crypt\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Blood+Crypt",
@@ -2685,8 +2770,9 @@ export const rna = {
       object: "card",
       id: "909489a9-2678-4b6f-9d5e-2c04bb4cbd66",
       oracle_id: "dcebce37-02eb-4b5d-86be-42b4a0287624",
-      multiverse_ids: [],
+      multiverse_ids: [457209],
       mtgo_id: 71130,
+      arena_id: 69193,
       tcgplayer_id: 183410,
       name: "Bloodmist Infiltrator",
       lang: "en",
@@ -2763,8 +2849,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.21",
+      usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457209",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Bloodmist+Infiltrator\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Bloodmist+Infiltrator",
@@ -2784,8 +2872,9 @@ export const rna = {
       object: "card",
       id: "5080975e-693a-44f5-a718-9ee947dada6d",
       oracle_id: "dbfa5409-5706-4de8-8152-e74b8d93910a",
-      multiverse_ids: [],
+      multiverse_ids: [457303],
       mtgo_id: 71318,
+      arena_id: 69287,
       tcgplayer_id: 182963,
       name: "Bolrac-Clan Crusher",
       lang: "en",
@@ -2864,8 +2953,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457303",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Bolrac-Clan+Crusher\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Bolrac-Clan+Crusher",
@@ -2885,8 +2976,9 @@ export const rna = {
       object: "card",
       id: "bb54233c-0844-4965-9cde-e8a4ef3e11b8",
       oracle_id: "20283c4a-f1f0-42f0-bc08-6da87474426b",
-      multiverse_ids: [],
+      multiverse_ids: [457390],
       mtgo_id: 71532,
+      arena_id: 69394,
       tcgplayer_id: 182842,
       name: "Breeding Pool",
       lang: "en",
@@ -2963,8 +3055,10 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       edhrec_rank: 69,
-      usd: "7.91",
+      usd: "7.92",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457390",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Breeding+Pool\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Breeding+Pool",
@@ -2984,8 +3078,9 @@ export const rna = {
       object: "card",
       id: "63d566fc-0936-4035-96fd-f8b0c4eadbf5",
       oracle_id: "968b6277-584c-4947-98ac-4d6e5f8d6754",
-      multiverse_ids: [],
+      multiverse_ids: [457149],
       mtgo_id: 71010,
+      arena_id: 69133,
       tcgplayer_id: 183351,
       name: "Bring to Trial",
       lang: "en",
@@ -3059,7 +3154,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "0.08",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457149",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Bring+to+Trial\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Bring+to+Trial",
@@ -3079,8 +3177,9 @@ export const rna = {
       object: "card",
       id: "b8574ffd-3e72-41de-90bf-69363189f047",
       oracle_id: "ed14c7fa-632c-47ee-9db0-8c492771121a",
-      multiverse_ids: [],
+      multiverse_ids: [457237],
       mtgo_id: 71186,
+      arena_id: 69221,
       tcgplayer_id: 183175,
       name: "Burn Bright",
       lang: "en",
@@ -3156,6 +3255,8 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457237",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Burn+Bright\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Burn+Bright",
@@ -3175,8 +3276,9 @@ export const rna = {
       object: "card",
       id: "c5674753-17e4-4e35-a12c-13e1e077ec70",
       oracle_id: "5bed3702-984d-436f-bb71-e16eaeffe902",
-      multiverse_ids: [],
+      multiverse_ids: [457238],
       mtgo_id: 71188,
+      arena_id: 69222,
       tcgplayer_id: 183086,
       name: "Burning-Tree Vandal",
       lang: "en",
@@ -3205,7 +3307,7 @@ export const rna = {
       cmc: 3.0,
       type_line: "Creature — Human Rogue",
       oracle_text:
-        "Riot (This creature enters the battlefield with your choice of a +1/1+ counter or haste.)\nWhenever Burning-Tree Vandal attacks, you may discard a card. If you do, draw a card.",
+        "Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)\nWhenever Burning-Tree Vandal attacks, you may discard a card. If you do, draw a card.",
       power: "2",
       toughness: "1",
       colors: ["R"],
@@ -3257,6 +3359,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457238",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Burning-Tree+Vandal\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Burning-Tree+Vandal",
@@ -3276,8 +3380,9 @@ export const rna = {
       object: "card",
       id: "065f63b2-472e-4148-8294-88ed38a5685f",
       oracle_id: "fc25ca51-f351-4877-a092-525fb48524a1",
-      multiverse_ids: [],
+      multiverse_ids: [457304],
       mtgo_id: 71320,
+      arena_id: 69288,
       tcgplayer_id: 183314,
       name: "Captive Audience",
       lang: "en",
@@ -3352,8 +3457,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "2.51",
+      usd: "2.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457304",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Captive+Audience\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Captive+Audience",
@@ -3373,8 +3480,9 @@ export const rna = {
       object: "card",
       id: "d1dbc559-c78c-4675-9582-9c28f8151bc7",
       oracle_id: "b996ae86-3bf6-4e84-8302-6ec6edaa6ff0",
-      multiverse_ids: [],
+      multiverse_ids: [457366],
       mtgo_id: 71452,
+      arena_id: 69352,
       tcgplayer_id: 183064,
       name: "Carnival // Carnage",
       lang: "en",
@@ -3387,17 +3495,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547235490",
+          "https://img.scryfall.com/cards/small/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547582000",
         normal:
-          "https://img.scryfall.com/cards/normal/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547235490",
+          "https://img.scryfall.com/cards/normal/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547582000",
         large:
-          "https://img.scryfall.com/cards/large/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547235490",
+          "https://img.scryfall.com/cards/large/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547582000",
         png:
-          "https://img.scryfall.com/cards/png/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.png?1547235490",
+          "https://img.scryfall.com/cards/png/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.png?1547582000",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547235490",
+          "https://img.scryfall.com/cards/art_crop/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547582000",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547235490"
+          "https://img.scryfall.com/cards/border_crop/front/d/1/d1dbc559-c78c-4675-9582-9c28f8151bc7.jpg?1547582000"
       },
       mana_cost: "{B/R} // {2}{B}{R}",
       cmc: 1.0,
@@ -3468,8 +3576,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.18",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457366",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Carnival+%2F%2F+Carnage\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Carnival",
@@ -3489,8 +3599,9 @@ export const rna = {
       object: "card",
       id: "958caf1d-b159-4c27-8248-00c345f880be",
       oracle_id: "bba44fad-b3ca-4892-b7d1-2d03478062af",
-      multiverse_ids: [],
+      multiverse_ids: [457210],
       mtgo_id: 71132,
+      arena_id: 69194,
       tcgplayer_id: 183411,
       name: "Carrion Imp",
       lang: "en",
@@ -3567,7 +3678,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "0.08",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457210",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Carrion+Imp\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Carrion+Imp",
@@ -3587,8 +3701,9 @@ export const rna = {
       object: "card",
       id: "440c53f0-7922-4e14-802d-d7a22f8fed85",
       oracle_id: "edc52483-19c7-4d3a-8915-6b1f41b2d6e5",
-      multiverse_ids: [],
+      multiverse_ids: [457211],
       mtgo_id: 71134,
+      arena_id: 69195,
       tcgplayer_id: 183414,
       name: "Catacomb Crocodile",
       lang: "en",
@@ -3667,6 +3782,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457211",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Catacomb+Crocodile\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Catacomb+Crocodile",
@@ -3686,8 +3803,9 @@ export const rna = {
       object: "card",
       id: "8a81e889-490b-4aeb-8e84-ea9a390bb8fe",
       oracle_id: "e29be33c-e5b0-428d-a057-b1cd61127557",
-      multiverse_ids: [],
+      multiverse_ids: [457239],
       mtgo_id: 71190,
+      arena_id: 69223,
       tcgplayer_id: 183335,
       name: "Cavalcade of Calamity",
       lang: "en",
@@ -3763,8 +3881,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.78",
+      usd: "0.62",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457239",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Cavalcade+of+Calamity\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Cavalcade+of+Calamity",
@@ -3784,8 +3904,9 @@ export const rna = {
       object: "card",
       id: "02cef5a4-e8fd-4ebd-b121-67059308c772",
       oracle_id: "2b04b60b-0c4c-4fee-a54b-7052ca5190e1",
-      multiverse_ids: [],
+      multiverse_ids: [460005],
       mtgo_id: 70996,
+      arena_id: 69419,
       tcgplayer_id: 183303,
       name: "Charging War Boar",
       lang: "en",
@@ -3814,7 +3935,7 @@ export const rna = {
       cmc: 3.0,
       type_line: "Creature — Boar",
       oracle_text:
-        "Haste (This creature can attack and {T} as soon as it comes under your control.)\nAs long as you control a Domri planeswalker, Charging War Boar gets +1/+1 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+        "Haste (This creature can attack and {T} as soon as it comes under your control.)\nAs long as you control a Domri planeswalker, Charging War Boar gets +1/+1 and has trample. (It can deal excess damage to the player or planeswalker it's attacking.)",
       power: "3",
       toughness: "1",
       colors: ["G", "R"],
@@ -3864,6 +3985,8 @@ export const rna = {
       story_spotlight: false,
       usd: "1.49",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460005",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Charging+War+Boar\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Charging+War+Boar",
@@ -3883,8 +4006,9 @@ export const rna = {
       object: "card",
       id: "158547fa-7313-4e77-949f-afc68ebfb022",
       oracle_id: "604d2a0e-224c-4a7b-aabf-033e7dcee3f2",
-      multiverse_ids: [],
+      multiverse_ids: [457177],
       mtgo_id: 71066,
+      arena_id: 69161,
       tcgplayer_id: 183347,
       name: "Chillbringer",
       lang: "en",
@@ -3961,7 +4085,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "0.08",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457177",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Chillbringer\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Chillbringer",
@@ -3981,8 +4108,9 @@ export const rna = {
       object: "card",
       id: "9f970f79-3051-4ba1-badb-697ef321cbb3",
       oracle_id: "92d95e12-fa51-4360-88e4-9078ccc5d8d3",
-      multiverse_ids: [],
+      multiverse_ids: [457305],
       mtgo_id: 71322,
+      arena_id: 69289,
       tcgplayer_id: 183354,
       name: "Cindervines",
       lang: "en",
@@ -4057,8 +4185,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "3.95",
+      usd: "3.21",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457305",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Cindervines\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Cindervines",
@@ -4078,8 +4208,9 @@ export const rna = {
       object: "card",
       id: "aa981489-4301-43f6-b1d7-2aa42e00cf75",
       oracle_id: "80d7e395-f774-44b5-9442-fa2fc03aaa29",
-      multiverse_ids: [],
+      multiverse_ids: [457150],
       mtgo_id: 71012,
+      arena_id: 69134,
       tcgplayer_id: 183356,
       name: "Civic Stalwart",
       lang: "en",
@@ -4157,8 +4288,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457150",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Civic+Stalwart\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Civic+Stalwart",
@@ -4178,8 +4311,9 @@ export const rna = {
       object: "card",
       id: "b3f073d7-f60a-44c1-aec9-cf42bbdb3153",
       oracle_id: "7fd2dcb2-760d-461d-8e5b-693aacf548cf",
-      multiverse_ids: [],
+      multiverse_ids: [457240],
       mtgo_id: 71192,
+      arena_id: 69224,
       tcgplayer_id: 183334,
       name: "Clamor Shaman",
       lang: "en",
@@ -4208,7 +4342,7 @@ export const rna = {
       cmc: 3.0,
       type_line: "Creature — Goblin Shaman",
       oracle_text:
-        "Riot (This creature enters the battlefield with your choice of a +1/1+ counter or haste.)\nWhenever Clamor Shaman attacks, target creature an opponent controls can't block this turn.",
+        "Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)\nWhenever Clamor Shaman attacks, target creature an opponent controls can't block this turn.",
       power: "1",
       toughness: "1",
       colors: ["R"],
@@ -4257,8 +4391,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.22",
+      usd: "0.17",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457240",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Clamor+Shaman\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Clamor+Shaman",
@@ -4278,8 +4414,9 @@ export const rna = {
       object: "card",
       id: "34a18415-015c-4d3f-8042-b156a673e125",
       oracle_id: "838eeca8-02f9-44fa-8170-1426622adf30",
-      multiverse_ids: [],
+      multiverse_ids: [457306],
       mtgo_id: 71324,
+      arena_id: 69290,
       tcgplayer_id: 183206,
       name: "Clan Guildmage",
       lang: "en",
@@ -4356,8 +4493,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.19",
+      usd: "0.16",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457306",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Clan+Guildmage\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Clan+Guildmage",
@@ -4377,8 +4516,9 @@ export const rna = {
       object: "card",
       id: "a7da6982-9e57-41d2-a052-f2a3bb646436",
       oracle_id: "141c33be-7a25-4981-b62c-efee8e8ec91d",
-      multiverse_ids: [],
+      multiverse_ids: [457178],
       mtgo_id: 71068,
+      arena_id: 69162,
       tcgplayer_id: 183349,
       name: "Clear the Mind",
       lang: "en",
@@ -4453,8 +4593,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.19",
+      usd: "0.16",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457178",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Clear+the+Mind\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Clear+the+Mind",
@@ -4474,8 +4616,9 @@ export const rna = {
       object: "card",
       id: "0ac65975-6ff5-4863-b7b7-d7dbea213b50",
       oracle_id: "77b6a3db-c098-4b06-bc7f-136eef892d30",
-      multiverse_ids: [],
+      multiverse_ids: [457212],
       mtgo_id: 71136,
+      arena_id: 69196,
       tcgplayer_id: 183416,
       name: "Clear the Stage",
       lang: "en",
@@ -4552,6 +4695,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.23",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457212",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Clear+the+Stage\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Clear+the+Stage",
@@ -4571,8 +4716,9 @@ export const rna = {
       object: "card",
       id: "258aeef1-565a-4f19-b12c-d46d54ba231d",
       oracle_id: "b2f83483-24a4-45db-a04e-42ff732ca98a",
-      multiverse_ids: [],
+      multiverse_ids: [457179],
       mtgo_id: 71070,
+      arena_id: 69163,
       tcgplayer_id: 183353,
       name: "Code of Constraint",
       lang: "en",
@@ -4647,8 +4793,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.23",
+      usd: "0.20",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457179",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Code+of+Constraint\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Code+of+Constraint",
@@ -4668,8 +4816,9 @@ export const rna = {
       object: "card",
       id: "9bd15da6-2b86-4dba-951d-318c7d9a5dde",
       oracle_id: "197ce21b-3387-4e76-a49c-04b9c371c031",
-      multiverse_ids: [],
+      multiverse_ids: [457367],
       mtgo_id: 71458,
+      arena_id: 69355,
       tcgplayer_id: 183327,
       name: "Collision // Colossus",
       lang: "en",
@@ -4682,17 +4831,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547235495",
+          "https://img.scryfall.com/cards/small/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547582011",
         normal:
-          "https://img.scryfall.com/cards/normal/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547235495",
+          "https://img.scryfall.com/cards/normal/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547582011",
         large:
-          "https://img.scryfall.com/cards/large/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547235495",
+          "https://img.scryfall.com/cards/large/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547582011",
         png:
-          "https://img.scryfall.com/cards/png/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.png?1547235495",
+          "https://img.scryfall.com/cards/png/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.png?1547582011",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547235495",
+          "https://img.scryfall.com/cards/art_crop/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547582011",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547235495"
+          "https://img.scryfall.com/cards/border_crop/front/9/b/9bd15da6-2b86-4dba-951d-318c7d9a5dde.jpg?1547582011"
       },
       mana_cost: "{1}{R/G} // {R}{G}",
       cmc: 2.0,
@@ -4764,8 +4913,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.44",
+      usd: "0.36",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457367",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Collision+%2F%2F+Colossus\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Collision",
@@ -4785,8 +4936,9 @@ export const rna = {
       object: "card",
       id: "3a6e2816-d50b-41a5-b503-faa58dc7c94a",
       oracle_id: "90abb55d-5c05-453f-b4a6-c0741dc36694",
-      multiverse_ids: [],
+      multiverse_ids: [457307],
       mtgo_id: 71326,
+      arena_id: 69291,
       tcgplayer_id: 183185,
       name: "Combine Guildmage",
       lang: "en",
@@ -4863,8 +5015,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.41",
+      usd: "0.26",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457307",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Combine+Guildmage\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Combine+Guildmage",
@@ -4884,8 +5038,9 @@ export const rna = {
       object: "card",
       id: "8a7fdf7b-022c-4900-9344-9b13d41c1604",
       oracle_id: "93c35f9e-3346-4269-b1af-df9f216bfd7a",
-      multiverse_ids: [],
+      multiverse_ids: [457151],
       mtgo_id: 71014,
+      arena_id: 69135,
       tcgplayer_id: 183362,
       name: "Concordia Pegasus",
       lang: "en",
@@ -4898,17 +5053,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547234366",
+          "https://img.scryfall.com/cards/small/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547504593",
         normal:
-          "https://img.scryfall.com/cards/normal/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547234366",
+          "https://img.scryfall.com/cards/normal/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547504593",
         large:
-          "https://img.scryfall.com/cards/large/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547234366",
+          "https://img.scryfall.com/cards/large/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547504593",
         png:
-          "https://img.scryfall.com/cards/png/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.png?1547234366",
+          "https://img.scryfall.com/cards/png/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.png?1547504593",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547234366",
+          "https://img.scryfall.com/cards/art_crop/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547504593",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547234366"
+          "https://img.scryfall.com/cards/border_crop/front/8/a/8a7fdf7b-022c-4900-9344-9b13d41c1604.jpg?1547504593"
       },
       mana_cost: "{1}{W}",
       cmc: 2.0,
@@ -4956,14 +5111,17 @@ export const rna = {
       flavor_text:
         "\"What makes a frog lizard any worse than a bird horse? Prejudice against the Simic, that's what! It's unfair!\"\n—Thados Arquef,\nGuardian Project biomancer",
       illustration_id: "7b9568bc-b015-4382-8709-c889781f7817",
-      artist: "Chris Rallis",
+      artist: "Chris Rahn",
       border_color: "black",
       frame: "2015",
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 13708,
+      edhrec_rank: 13714,
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457151",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Concordia+Pegasus\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Concordia+Pegasus",
@@ -4983,8 +5141,9 @@ export const rna = {
       object: "card",
       id: "00320106-ce51-46a9-b0f9-79b3baf4e505",
       oracle_id: "20e7a93f-77ce-466b-8586-35d390689d0c",
-      multiverse_ids: [],
+      multiverse_ids: [457368],
       mtgo_id: 71464,
+      arena_id: 69358,
       tcgplayer_id: 183063,
       name: "Consecrate // Consume",
       lang: "en",
@@ -4997,17 +5156,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547235501",
+          "https://img.scryfall.com/cards/small/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547582024",
         normal:
-          "https://img.scryfall.com/cards/normal/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547235501",
+          "https://img.scryfall.com/cards/normal/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547582024",
         large:
-          "https://img.scryfall.com/cards/large/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547235501",
+          "https://img.scryfall.com/cards/large/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547582024",
         png:
-          "https://img.scryfall.com/cards/png/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.png?1547235501",
+          "https://img.scryfall.com/cards/png/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.png?1547582024",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547235501",
+          "https://img.scryfall.com/cards/art_crop/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547582024",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547235501"
+          "https://img.scryfall.com/cards/border_crop/front/0/0/00320106-ce51-46a9-b0f9-79b3baf4e505.jpg?1547582024"
       },
       mana_cost: "{1}{W/B} // {2}{W}{B}",
       cmc: 2.0,
@@ -5077,8 +5236,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.18",
+      usd: "0.16",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457368",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Consecrate+%2F%2F+Consume\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Consecrate",
@@ -5098,8 +5259,9 @@ export const rna = {
       object: "card",
       id: "09991fad-4282-4a17-bfb1-03eaa13502df",
       oracle_id: "b0c50079-5376-47ff-82c5-d52dbf49afdf",
-      multiverse_ids: [],
+      multiverse_ids: [457213],
       mtgo_id: 71138,
+      arena_id: 69197,
       tcgplayer_id: 183417,
       name: "Consign to the Pit",
       lang: "en",
@@ -5175,8 +5337,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.12",
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457213",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Consign+to+the+Pit\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Consign+to+the+Pit",
@@ -5196,8 +5360,9 @@ export const rna = {
       object: "card",
       id: "889cc2a0-d9a6-4368-92e0-055a7d7bf9d1",
       oracle_id: "03ce2235-50d9-4f67-b588-166b9b37c664",
-      multiverse_ids: [],
+      multiverse_ids: [457180],
       mtgo_id: 71072,
+      arena_id: 69164,
       tcgplayer_id: 183358,
       name: "Coral Commando",
       lang: "en",
@@ -5275,6 +5440,8 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457180",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Coral+Commando\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Coral+Commando",
@@ -5294,8 +5461,9 @@ export const rna = {
       object: "card",
       id: "715a14a3-046e-45ca-b943-dd630e5202b7",
       oracle_id: "1b9a5170-39c0-4cbf-a041-f3c15f1359ae",
-      multiverse_ids: [],
+      multiverse_ids: [457214],
       mtgo_id: 71140,
+      arena_id: 69198,
       tcgplayer_id: 183061,
       name: "Cry of the Carnarium",
       lang: "en",
@@ -5371,8 +5539,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.24",
+      usd: "0.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457214",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Cry+of+the+Carnarium\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Cry+of+the+Carnarium",
@@ -5392,8 +5562,9 @@ export const rna = {
       object: "card",
       id: "0536c2fa-7402-49a1-9016-dcf5633ca9ef",
       oracle_id: "c65f8949-5e37-4929-994a-ec037814bf63",
-      multiverse_ids: [],
+      multiverse_ids: [457308],
       mtgo_id: 71328,
+      arena_id: 69292,
       tcgplayer_id: 183191,
       name: "Cult Guildmage",
       lang: "en",
@@ -5470,8 +5641,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.28",
+      usd: "0.25",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457308",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Cult+Guildmage\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Cult+Guildmage",
@@ -5491,8 +5664,9 @@ export const rna = {
       object: "card",
       id: "48a7ac34-ec4a-4571-abb1-bff1fb67c78f",
       oracle_id: "f1352a81-6fd5-4c4d-ada4-b81d3a9f74c0",
-      multiverse_ids: [],
+      multiverse_ids: [457241],
       mtgo_id: 71194,
+      arena_id: 69225,
       tcgplayer_id: 183385,
       name: "Dagger Caster",
       lang: "en",
@@ -5569,8 +5743,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.21",
+      usd: "0.20",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457241",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Dagger+Caster\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Dagger+Caster",
@@ -5590,8 +5766,9 @@ export const rna = {
       object: "card",
       id: "f5b2c21a-419d-4896-82e3-1b5cb32b158e",
       oracle_id: "4354eb0a-28c5-4f3f-8e78-fd7eec230c7b",
-      multiverse_ids: [],
+      multiverse_ids: [457215],
       mtgo_id: 71142,
+      arena_id: 69199,
       tcgplayer_id: 183419,
       name: "Dead Revels",
       lang: "en",
@@ -5667,8 +5844,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.24",
+      usd: "0.22",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457215",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Dead+Revels\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Dead+Revels",
@@ -5688,8 +5867,9 @@ export const rna = {
       object: "card",
       id: "7cd03b99-d62e-428a-9e0d-097f1227a4da",
       oracle_id: "72f89173-2998-45e6-94da-5b5bb9738a6b",
-      multiverse_ids: [],
+      multiverse_ids: [457216],
       mtgo_id: 71144,
+      arena_id: 69200,
       tcgplayer_id: 183421,
       name: "Debtors' Transport",
       lang: "en",
@@ -5768,8 +5948,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.19",
+      usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457216",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Debtors%27+Transport\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Debtors%27+Transport",
@@ -5789,8 +5971,9 @@ export const rna = {
       object: "card",
       id: "43df9f41-944e-4cf3-ac80-524eadac221d",
       oracle_id: "390290b3-77cc-4180-8e6c-9cb808f6ac7a",
-      multiverse_ids: [],
+      multiverse_ids: [457242],
       mtgo_id: 71196,
+      arena_id: 69226,
       tcgplayer_id: 183386,
       name: "Deface",
       lang: "en",
@@ -5866,6 +6049,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.20",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457242",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Deface\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Deface",
@@ -5885,8 +6070,9 @@ export const rna = {
       object: "card",
       id: "ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60",
       oracle_id: "c547c9ab-a303-48fb-9579-37f9de9a558b",
-      multiverse_ids: [],
+      multiverse_ids: [457369],
       mtgo_id: 71470,
+      arena_id: 69361,
       tcgplayer_id: 182961,
       name: "Depose // Deploy",
       lang: "en",
@@ -5899,17 +6085,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547235506",
+          "https://img.scryfall.com/cards/small/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547582033",
         normal:
-          "https://img.scryfall.com/cards/normal/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547235506",
+          "https://img.scryfall.com/cards/normal/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547582033",
         large:
-          "https://img.scryfall.com/cards/large/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547235506",
+          "https://img.scryfall.com/cards/large/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547582033",
         png:
-          "https://img.scryfall.com/cards/png/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.png?1547235506",
+          "https://img.scryfall.com/cards/png/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.png?1547582033",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547235506",
+          "https://img.scryfall.com/cards/art_crop/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547582033",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547235506"
+          "https://img.scryfall.com/cards/border_crop/front/a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60.jpg?1547582033"
       },
       mana_cost: "{1}{W/U} // {2}{W}{U}",
       cmc: 2.0,
@@ -5979,8 +6165,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.27",
+      usd: "0.21",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457369",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Depose+%2F%2F+Deploy\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Depose",
@@ -6000,8 +6188,9 @@ export const rna = {
       object: "card",
       id: "7e362055-78a1-48fa-a4ef-6cf7e0b21b14",
       oracle_id: "0e4150db-ac43-48b4-9791-0d874906acf5",
-      multiverse_ids: [],
+      multiverse_ids: [457309],
       mtgo_id: 71330,
+      arena_id: 69293,
       tcgplayer_id: 182826,
       name: "Deputy of Detention",
       lang: "en",
@@ -6078,8 +6267,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "4.03",
+      usd: "2.91",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457309",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Deputy+of+Detention\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Deputy+of+Detention",
@@ -6099,8 +6290,9 @@ export const rna = {
       object: "card",
       id: "1f56bbf3-3884-495a-b9cd-6585d86f76f1",
       oracle_id: "2a5408ed-8b47-4896-97e4-aa102a4b85c9",
-      multiverse_ids: [],
+      multiverse_ids: [457310],
       mtgo_id: 71332,
+      arena_id: 69294,
       tcgplayer_id: 183182,
       name: "Domri, Chaos Bringer",
       lang: "en",
@@ -6129,7 +6321,7 @@ export const rna = {
       cmc: 4.0,
       type_line: "Legendary Planeswalker — Domri",
       oracle_text:
-        '+1: Add {R} or {G}. If that mana is spent on a creature spell, it gains riot.\n−3: Look at the top four cards of your library. You may reveal up to two creature cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.\n−8: You get an emblem with "At the beginning of each end step, create a 4/4 red and green Beast creature token with trample."',
+        '+1: Add {R} or {G}. If that mana is spent on a creature spell, it gains riot. (It enters the battlefield with your choice of a +1/+1 counter or haste.)\n−3: Look at the top four cards of your library. You may reveal up to two creature cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.\n−8: You get an emblem with "At the beginning of each end step, create a 4/4 red and green Beast creature token with trample."',
       loyalty: "5",
       colors: ["G", "R"],
       color_identity: ["G", "R"],
@@ -6175,8 +6367,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "16.40",
+      usd: "15.99",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457310",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Domri%2C+Chaos+Bringer\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Domri%2C+Chaos+Bringer",
@@ -6196,8 +6390,9 @@ export const rna = {
       object: "card",
       id: "8fe16cdb-90df-4670-a084-55c505791d85",
       oracle_id: "d8fe9672-0ead-4f47-abd8-e1ee133c5c60",
-      multiverse_ids: [],
+      multiverse_ids: [460003],
       mtgo_id: 70992,
+      arena_id: 69417,
       tcgplayer_id: 183308,
       name: "Domri, City Smasher",
       lang: "en",
@@ -6226,7 +6421,7 @@ export const rna = {
       cmc: 6.0,
       type_line: "Legendary Planeswalker — Domri",
       oracle_text:
-        "+2: Creatures you control get +1/+1 and gain haste until end of turn.\n-3: Domri, City Smasher deals 3 damage to any target.\n-8: Put three +1/+1 counters on each creature you control. Those creatures gain trample until end of turn.",
+        "+2: Creatures you control get +1/+1 and gain haste until end of turn.\n−3: Domri, City Smasher deals 3 damage to any target.\n−8: Put three +1/+1 counters on each creature you control. Those creatures gain trample until end of turn.",
       loyalty: "4",
       colors: ["G", "R"],
       color_identity: ["G", "R"],
@@ -6272,7 +6467,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "9.90",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460003",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Domri%2C+City+Smasher\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Domri%2C+City+Smasher",
@@ -6292,8 +6490,9 @@ export const rna = {
       object: "card",
       id: "1abe58d8-67d1-4719-8e84-27747dea3506",
       oracle_id: "3992209a-0a28-449d-8ba5-f75e861a79b4",
-      multiverse_ids: [],
+      multiverse_ids: [460006],
       mtgo_id: 70998,
+      arena_id: 69420,
       tcgplayer_id: 183302,
       name: "Domri's Nodorog",
       lang: "en",
@@ -6371,7 +6570,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "3.95",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460006",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Domri%27s+Nodorog\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Domri%27s+Nodorog",
@@ -6391,8 +6593,9 @@ export const rna = {
       object: "card",
       id: "b0c7cffe-8751-4da7-8c1c-59f472ef3735",
       oracle_id: "a3386efe-d6c5-4853-a4db-61460da3364a",
-      multiverse_ids: [],
+      multiverse_ids: [459999],
       mtgo_id: 70984,
+      arena_id: 69413,
       tcgplayer_id: 183309,
       name: "Dovin, Architect of Law",
       lang: "en",
@@ -6421,7 +6624,7 @@ export const rna = {
       cmc: 6.0,
       type_line: "Legendary Planeswalker — Dovin",
       oracle_text:
-        "+1: You gain 2 life and draw a card.\n-1: Tap target creature. It doesn't untap during its controller's next untap step.\n-9: Tap all permanents target opponent controls. That player skips their next untap step.",
+        "+1: You gain 2 life and draw a card.\n−1: Tap target creature. It doesn't untap during its controller's next untap step.\n−9: Tap all permanents target opponent controls. That player skips their next untap step.",
       loyalty: "5",
       colors: ["U", "W"],
       color_identity: ["U", "W"],
@@ -6467,8 +6670,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "11.95",
+      usd: "11.94",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=459999",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Dovin%2C+Architect+of+Law\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Dovin%2C+Architect+of+Law",
@@ -6488,8 +6693,9 @@ export const rna = {
       object: "card",
       id: "e6784910-0204-4a39-bb38-50daa03e94c2",
       oracle_id: "596237da-3d51-4052-a8ca-2218efc1afb3",
-      multiverse_ids: [],
+      multiverse_ids: [457311],
       mtgo_id: 71334,
+      arena_id: 69295,
       tcgplayer_id: 182950,
       name: "Dovin, Grand Arbiter",
       lang: "en",
@@ -6518,7 +6724,7 @@ export const rna = {
       cmc: 3.0,
       type_line: "Legendary Planeswalker — Dovin",
       oracle_text:
-        "+1: Until end of turn, whenever a creature you control deals combat damage to a player, put a loyalty counter on Dovin, Grand Arbiter.\n-1: Create a 1/1 colorless Thopter artifact creature token with flying. You gain 1 life.\n-7: Look at the top ten cards of your library. Put three of them into your hand and the rest on the bottom of your library in a random order.",
+        "+1: Until end of turn, whenever a creature you control deals combat damage to a player, put a loyalty counter on Dovin, Grand Arbiter.\n−1: Create a 1/1 colorless Thopter artifact creature token with flying. You gain 1 life.\n−7: Look at the top ten cards of your library. Put three of them into your hand and the rest on the bottom of your library in a random order.",
       loyalty: "3",
       colors: ["U", "W"],
       color_identity: ["U", "W"],
@@ -6564,8 +6770,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "12.52",
+      usd: "11.96",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457311",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Dovin%2C+Grand+Arbiter\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Dovin%2C+Grand+Arbiter",
@@ -6585,8 +6793,9 @@ export const rna = {
       object: "card",
       id: "0b191592-7221-422a-8b5a-65f7b1caec1a",
       oracle_id: "898e480d-c44e-4080-910a-f53e4ee471e1",
-      multiverse_ids: [],
+      multiverse_ids: [457312],
       mtgo_id: 71336,
+      arena_id: 69296,
       tcgplayer_id: 183207,
       name: "Dovin's Acuity",
       lang: "en",
@@ -6599,17 +6808,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547235202",
+          "https://img.scryfall.com/cards/small/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547650427",
         normal:
-          "https://img.scryfall.com/cards/normal/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547235202",
+          "https://img.scryfall.com/cards/normal/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547650427",
         large:
-          "https://img.scryfall.com/cards/large/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547235202",
+          "https://img.scryfall.com/cards/large/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547650427",
         png:
-          "https://img.scryfall.com/cards/png/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.png?1547235202",
+          "https://img.scryfall.com/cards/png/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.png?1547650427",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547235202",
+          "https://img.scryfall.com/cards/art_crop/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547650427",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547235202"
+          "https://img.scryfall.com/cards/border_crop/front/0/b/0b191592-7221-422a-8b5a-65f7b1caec1a.jpg?1547650427"
       },
       mana_cost: "{1}{W}{U}",
       cmc: 3.0,
@@ -6653,8 +6862,9 @@ export const rna = {
       collector_number: "168",
       digital: false,
       rarity: "uncommon",
+      watermark: "azorius",
       flavor_text:
-        "Dovin ticked the Planeswalkers off on his fingers: himself, Domri, Kaya, Ral, Vraska...and Bolas made an even six.",
+        "Dovin ticked the Planeswalkers off on his fingers: himself, Domri, Kaya, Ral, Vraska . . . and Bolas made an even six.",
       illustration_id: "693f1a74-5593-4d0b-adf2-23734817cf68",
       artist: "Bastien L. Deharme",
       border_color: "black",
@@ -6662,8 +6872,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.38",
+      usd: "0.33",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457312",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Dovin%27s+Acuity\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Dovin%27s+Acuity",
@@ -6683,8 +6895,10 @@ export const rna = {
       object: "card",
       id: "0a962509-2e77-4655-b397-9625b2f3407a",
       oracle_id: "3d133b18-f1c7-48de-82a6-affb0514b96b",
-      multiverse_ids: [],
+      multiverse_ids: [460002],
       mtgo_id: 70990,
+      arena_id: 69416,
+      tcgplayer_id: 183305,
       name: "Dovin's Automaton",
       lang: "en",
       released_at: "2019-01-25",
@@ -6762,6 +6976,8 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460002",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Dovin%27s+Automaton\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Dovin%27s+Automaton",
@@ -6770,7 +6986,7 @@ export const rna = {
       },
       purchase_uris: {
         tcgplayer:
-          "https://shop.tcgplayer.com/productcatalog/product/show?ProductName=Dovin%27s+Automaton\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+          "https://shop.tcgplayer.com/magic/ravnica-allegiance/dovins-automaton?partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         cardmarket:
           "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Dovin%27s+Automaton",
         cardhoarder:
@@ -6781,8 +6997,9 @@ export const rna = {
       object: "card",
       id: "6328e6b5-9dfb-4fd4-99ee-a1ffc2c707da",
       oracle_id: "6db5f1a7-4cd8-42e2-a5d8-1603206ad0cc",
-      multiverse_ids: [],
+      multiverse_ids: [460001],
       mtgo_id: 70988,
+      arena_id: 69415,
       tcgplayer_id: 183304,
       name: "Dovin's Dismissal",
       lang: "en",
@@ -6860,6 +7077,8 @@ export const rna = {
       story_spotlight: false,
       usd: "2.94",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460001",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Dovin%27s+Dismissal\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Dovin%27s+Dismissal",
@@ -6879,8 +7098,9 @@ export const rna = {
       object: "card",
       id: "73f8710c-9c5e-4d11-b45f-0728c54bd631",
       oracle_id: "0dbd6e47-a8b4-4268-ba44-8924cd4963a6",
-      multiverse_ids: [],
+      multiverse_ids: [457217],
       mtgo_id: 71146,
+      arena_id: 69201,
       tcgplayer_id: 183114,
       name: "Drill Bit",
       lang: "en",
@@ -6955,8 +7175,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.80",
+      usd: "0.56",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457217",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Drill+Bit\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Drill+Bit",
@@ -6976,8 +7198,9 @@ export const rna = {
       object: "card",
       id: "5c63877b-cdab-4ce4-a1c0-c088eb62a57a",
       oracle_id: "4a59d86e-405d-4c70-b2a5-c64f5cecfd9e",
-      multiverse_ids: [],
+      multiverse_ids: [457243],
       mtgo_id: 71198,
+      arena_id: 69227,
       tcgplayer_id: 183060,
       name: "Electrodominance",
       lang: "en",
@@ -7053,8 +7276,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "8.17",
+      usd: "8.02",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457243",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Electrodominance\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Electrodominance",
@@ -7074,8 +7299,9 @@ export const rna = {
       object: "card",
       id: "070f0a21-8e06-46ec-9d84-c65067b23893",
       oracle_id: "f25af8de-3edb-400b-9b6c-ec446a8314fa",
-      multiverse_ids: [],
+      multiverse_ids: [460000],
       mtgo_id: 70986,
+      arena_id: 69414,
       tcgplayer_id: 183307,
       name: "Elite Arrester",
       lang: "en",
@@ -7152,7 +7378,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "0.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460000",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Elite+Arrester\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Elite+Arrester",
@@ -7172,8 +7401,9 @@ export const rna = {
       object: "card",
       id: "6473a93f-879f-4f44-8650-ee05a647c763",
       oracle_id: "9127ac59-4c7b-4652-b1e5-d82af47f2717",
-      multiverse_ids: [],
+      multiverse_ids: [457313],
       mtgo_id: 71338,
+      arena_id: 69297,
       tcgplayer_id: 182410,
       name: "Emergency Powers",
       lang: "en",
@@ -7248,8 +7478,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: true,
-      usd: "3.88",
+      usd: "3.54",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457313",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Emergency+Powers\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Emergency+Powers",
@@ -7269,8 +7501,9 @@ export const rna = {
       object: "card",
       id: "a50d79fe-6d37-42f3-b7b0-0c3018282fa2",
       oracle_id: "69b52907-8aff-4f2a-a391-7d1ab2669b5c",
-      multiverse_ids: [],
+      multiverse_ids: [457268],
       mtgo_id: 71248,
+      arena_id: 69252,
       tcgplayer_id: 182994,
       name: "End-Raze Forerunners",
       lang: "en",
@@ -7347,8 +7580,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.77",
+      usd: "0.67",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457268",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=End-Raze+Forerunners\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=End-Raze+Forerunners",
@@ -7368,8 +7603,9 @@ export const rna = {
       object: "card",
       id: "c44fc50f-8958-422f-933f-fd043d642c97",
       oracle_id: "e1f3f377-c7b1-474c-aed6-78b061d138c1",
-      multiverse_ids: [],
+      multiverse_ids: [457269],
       mtgo_id: 71250,
+      arena_id: 69253,
       tcgplayer_id: 183413,
       name: "Enraged Ceratok",
       lang: "en",
@@ -7448,6 +7684,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457269",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Enraged+Ceratok\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Enraged+Ceratok",
@@ -7467,8 +7705,9 @@ export const rna = {
       object: "card",
       id: "ce137910-0f0e-4f94-9b95-6e0eeeba164e",
       oracle_id: "0f730bd9-2060-46b1-9208-0ac6562e8b2a",
-      multiverse_ids: [],
+      multiverse_ids: [457181],
       mtgo_id: 71074,
+      arena_id: 69165,
       tcgplayer_id: 183208,
       name: "Essence Capture",
       lang: "en",
@@ -7544,8 +7783,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.33",
+      usd: "0.17",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457181",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Essence+Capture\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Essence+Capture",
@@ -7565,8 +7806,9 @@ export const rna = {
       object: "card",
       id: "0872d0ff-1060-44cc-9ed0-a6aa496440c8",
       oracle_id: "e6f95e3a-61a6-40a9-8070-ffd2767764ad",
-      multiverse_ids: [],
+      multiverse_ids: [457314],
       mtgo_id: 71340,
+      arena_id: 69298,
       tcgplayer_id: 183209,
       name: "Ethereal Absolution",
       lang: "en",
@@ -7579,17 +7821,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547235213",
+          "https://img.scryfall.com/cards/small/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547650405",
         normal:
-          "https://img.scryfall.com/cards/normal/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547235213",
+          "https://img.scryfall.com/cards/normal/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547650405",
         large:
-          "https://img.scryfall.com/cards/large/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547235213",
+          "https://img.scryfall.com/cards/large/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547650405",
         png:
-          "https://img.scryfall.com/cards/png/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.png?1547235213",
+          "https://img.scryfall.com/cards/png/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.png?1547650405",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547235213",
+          "https://img.scryfall.com/cards/art_crop/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547650405",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547235213"
+          "https://img.scryfall.com/cards/border_crop/front/0/8/0872d0ff-1060-44cc-9ed0-a6aa496440c8.jpg?1547650405"
       },
       mana_cost: "{4}{W}{B}",
       cmc: 6.0,
@@ -7633,6 +7875,7 @@ export const rna = {
       collector_number: "170",
       digital: false,
       rarity: "rare",
+      watermark: "planeswalker",
       flavor_text: '"Time to let the dead be dead."\n—Kaya, to Teysa',
       illustration_id: "16096f95-bc8f-445c-8293-369c4687aa10",
       artist: "Eric Deschamps",
@@ -7641,8 +7884,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: true,
-      usd: "1.51",
+      usd: "1.38",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457314",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Ethereal+Absolution\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Ethereal+Absolution",
@@ -7662,8 +7907,9 @@ export const rna = {
       object: "card",
       id: "094c2ac3-040f-41fe-9a37-c037d90baec0",
       oracle_id: "c8195fcd-1858-4f23-aa73-b654d25035aa",
-      multiverse_ids: [],
+      multiverse_ids: [457152],
       mtgo_id: 71016,
+      arena_id: 69136,
       tcgplayer_id: 183365,
       name: "Expose to Daylight",
       lang: "en",
@@ -7738,8 +7984,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457152",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Expose+to+Daylight\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Expose+to+Daylight",
@@ -7759,8 +8007,9 @@ export const rna = {
       object: "card",
       id: "1fdbf073-3ee6-402b-bd40-4781f40a6cae",
       oracle_id: "7d0a1ae5-cd93-4789-9666-fc7bbbc6b613",
-      multiverse_ids: [],
+      multiverse_ids: [457182],
       mtgo_id: 71076,
+      arena_id: 69166,
       tcgplayer_id: 183326,
       name: "Eyes Everywhere",
       lang: "en",
@@ -7835,8 +8084,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.76",
+      usd: "0.67",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457182",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Eyes+Everywhere\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Eyes+Everywhere",
@@ -7856,8 +8107,9 @@ export const rna = {
       object: "card",
       id: "a7da9c9b-aeef-4f48-bc8f-39425841cc8c",
       oracle_id: "ccbf7141-69c9-407d-b68e-c1c63ddef213",
-      multiverse_ids: [],
+      multiverse_ids: [457183],
       mtgo_id: 71078,
+      arena_id: 69167,
       tcgplayer_id: 183361,
       name: "Faerie Duelist",
       lang: "en",
@@ -7935,8 +8187,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.13",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457183",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Faerie+Duelist\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Faerie+Duelist",
@@ -7956,8 +8210,9 @@ export const rna = {
       object: "card",
       id: "3c969aa0-b0e5-42cd-abba-0a3c7266142c",
       oracle_id: "d4556b82-f96e-4f88-a885-3e84afdb98a1",
-      multiverse_ids: [],
+      multiverse_ids: [457244],
       mtgo_id: 71200,
+      arena_id: 69228,
       tcgplayer_id: 183387,
       name: "Feral Maaka",
       lang: "en",
@@ -8034,8 +8289,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.13",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457244",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Feral+Maaka\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Feral+Maaka",
@@ -8055,8 +8312,9 @@ export const rna = {
       object: "card",
       id: "49a21a8f-9c7b-4ae8-8635-f2ee2151c8de",
       oracle_id: "e47d57dc-2e69-4939-8aec-077595f2ae05",
-      multiverse_ids: [],
+      multiverse_ids: [457315],
       mtgo_id: 71342,
+      arena_id: 69299,
       tcgplayer_id: 183355,
       name: "Final Payment",
       lang: "en",
@@ -8133,8 +8391,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.14",
+      usd: "0.13",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457315",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Final+Payment\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Final+Payment",
@@ -8154,8 +8414,9 @@ export const rna = {
       object: "card",
       id: "21e1161f-bd2c-45a7-a86b-3b2e5210f148",
       oracle_id: "52630eaf-995e-4d08-be99-888a38b598b2",
-      multiverse_ids: [],
+      multiverse_ids: [457316],
       mtgo_id: 71344,
+      arena_id: 69300,
       tcgplayer_id: 183210,
       name: "Fireblade Artist",
       lang: "en",
@@ -8234,8 +8495,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.61",
+      usd: "0.13",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457316",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Fireblade+Artist\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Fireblade+Artist",
@@ -8255,8 +8518,9 @@ export const rna = {
       object: "card",
       id: "16957271-12bb-4031-b476-f7678b753ae3",
       oracle_id: "da8dd2ee-0ce3-4ce6-abb9-7444cefcbe83",
-      multiverse_ids: [],
+      multiverse_ids: [457245],
       mtgo_id: 71202,
+      arena_id: 69229,
       tcgplayer_id: 183389,
       name: "Flames of the Raze-Boar",
       lang: "en",
@@ -8333,6 +8597,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457245",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Flames+of+the+Raze-Boar\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Flames+of+the+Raze-Boar",
@@ -8352,8 +8618,9 @@ export const rna = {
       object: "card",
       id: "d7c02aec-4a89-4ccc-8525-6f979c10d799",
       oracle_id: "ab44c6fe-6a66-42f0-9e75-8b25641e1f13",
-      multiverse_ids: [],
+      multiverse_ids: [457218],
       mtgo_id: 71148,
+      arena_id: 69202,
       tcgplayer_id: 183211,
       name: "Font of Agonies",
       lang: "en",
@@ -8428,8 +8695,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.81",
+      usd: "0.63",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457218",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Font+of+Agonies\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Font+of+Agonies",
@@ -8449,8 +8718,9 @@ export const rna = {
       object: "card",
       id: "8c604697-5c81-4329-9b16-f19bd90ba08c",
       oracle_id: "77a5305a-2611-4a64-adb4-da131dcea233",
-      multiverse_ids: [],
+      multiverse_ids: [457360],
       mtgo_id: 71432,
+      arena_id: 69344,
       tcgplayer_id: 183357,
       name: "Footlight Fiend",
       lang: "en",
@@ -8528,8 +8798,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.12",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457360",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Footlight+Fiend\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Footlight+Fiend",
@@ -8549,8 +8821,9 @@ export const rna = {
       object: "card",
       id: "c17056e7-95c6-4bed-a747-3b40dcda275a",
       oracle_id: "efd8dc6c-8233-45b2-99bd-e38ca2e0b35f",
-      multiverse_ids: [],
+      multiverse_ids: [457153],
       mtgo_id: 71018,
+      arena_id: 69137,
       tcgplayer_id: 183317,
       name: "Forbidding Spirit",
       lang: "en",
@@ -8627,8 +8900,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.45",
+      usd: "0.39",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457153",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Forbidding+Spirit\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Forbidding+Spirit",
@@ -8646,10 +8921,106 @@ export const rna = {
     },
     {
       object: "card",
+      id: "48764854-d268-462d-a016-27329c8f062d",
+      oracle_id: "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+      multiverse_ids: [459998],
+      mtgo_id: 70982,
+      arena_id: 69412,
+      name: "Forest",
+      lang: "en",
+      released_at: "2019-01-25",
+      uri:
+        "https://api.scryfall.com/cards/48764854-d268-462d-a016-27329c8f062d",
+      scryfall_uri: "https://scryfall.com/card/rna/264/forest?utm_source=api",
+      layout: "normal",
+      highres_image: false,
+      image_uris: {
+        small:
+          "https://img.scryfall.com/cards/small/front/4/8/48764854-d268-462d-a016-27329c8f062d.jpg?1547578546",
+        normal:
+          "https://img.scryfall.com/cards/normal/front/4/8/48764854-d268-462d-a016-27329c8f062d.jpg?1547578546",
+        large:
+          "https://img.scryfall.com/cards/large/front/4/8/48764854-d268-462d-a016-27329c8f062d.jpg?1547578546",
+        png:
+          "https://img.scryfall.com/cards/png/front/4/8/48764854-d268-462d-a016-27329c8f062d.png?1547578546",
+        art_crop:
+          "https://img.scryfall.com/cards/art_crop/front/4/8/48764854-d268-462d-a016-27329c8f062d.jpg?1547578546",
+        border_crop:
+          "https://img.scryfall.com/cards/border_crop/front/4/8/48764854-d268-462d-a016-27329c8f062d.jpg?1547578546"
+      },
+      mana_cost: "",
+      cmc: 0.0,
+      type_line: "Basic Land — Forest",
+      oracle_text: "({T}: Add {G}.)",
+      colors: [],
+      color_identity: ["G"],
+      legalities: {
+        standard: "legal",
+        future: "legal",
+        frontier: "legal",
+        modern: "legal",
+        legacy: "legal",
+        pauper: "legal",
+        vintage: "legal",
+        penny: "legal",
+        commander: "legal",
+        "1v1": "legal",
+        duel: "legal",
+        brawl: "legal"
+      },
+      games: ["arena", "mtgo", "paper"],
+      reserved: false,
+      foil: true,
+      nonfoil: true,
+      oversized: false,
+      promo: false,
+      reprint: true,
+      set: "rna",
+      set_name: "Ravnica Allegiance",
+      set_uri:
+        "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
+      set_search_uri:
+        "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Arna\u0026unique=prints",
+      scryfall_set_uri: "https://scryfall.com/sets/rna?utm_source=api",
+      rulings_uri:
+        "https://api.scryfall.com/cards/48764854-d268-462d-a016-27329c8f062d/rulings",
+      prints_search_uri:
+        "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Ab34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6\u0026unique=prints",
+      collector_number: "264",
+      digital: false,
+      rarity: "common",
+      illustration_id: "24132847-d398-4363-8d90-4fa63fc23c4d",
+      artist: "Eytan Zana",
+      border_color: "black",
+      frame: "2015",
+      frame_effect: "",
+      full_art: false,
+      story_spotlight: false,
+      related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=459998",
+        tcgplayer_decks:
+          "https://decks.tcgplayer.com/magic/deck/search?contains=Forest\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+        edhrec: "http://edhrec.com/route/?cc=Forest",
+        mtgtop8:
+          "http://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Forest"
+      },
+      purchase_uris: {
+        tcgplayer:
+          "https://shop.tcgplayer.com/productcatalog/product/show?ProductName=Forest\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+        cardmarket:
+          "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Forest",
+        cardhoarder:
+          "https://www.cardhoarder.com/cards/70982?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      object: "card",
       id: "bce2eef7-03a4-415f-8bb7-a29d50ce1b0f",
       oracle_id: "772873f4-74b9-44da-bd69-e4c8de797a26",
-      multiverse_ids: [],
+      multiverse_ids: [457317],
       mtgo_id: 71346,
+      arena_id: 69301,
       tcgplayer_id: 182362,
       name: "Frenzied Arynx",
       lang: "en",
@@ -8726,8 +9097,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.17",
+      usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457317",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Frenzied+Arynx\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Frenzied+Arynx",
@@ -8747,8 +9120,9 @@ export const rna = {
       object: "card",
       id: "50595d02-edad-48a6-b10c-6fa859cc88bb",
       oracle_id: "724bc69c-cd09-4ff8-91e7-70500b9474e1",
-      multiverse_ids: [],
+      multiverse_ids: [457318],
       mtgo_id: 71348,
+      arena_id: 69302,
       tcgplayer_id: 183056,
       name: "Frilled Mystic",
       lang: "en",
@@ -8826,8 +9200,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.55",
+      usd: "0.51",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457318",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Frilled+Mystic\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Frilled+Mystic",
@@ -8847,8 +9223,9 @@ export const rna = {
       object: "card",
       id: "cc2b7cfe-4696-4448-93d2-33be596e32d9",
       oracle_id: "3561cd52-961f-4098-9287-58ee43970f0f",
-      multiverse_ids: [],
+      multiverse_ids: [457319],
       mtgo_id: 71350,
+      arena_id: 69303,
       tcgplayer_id: 183186,
       name: "Galloping Lizrog",
       lang: "en",
@@ -8926,8 +9303,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.25",
+      usd: "0.19",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457319",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Galloping+Lizrog\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Galloping+Lizrog",
@@ -8947,8 +9326,9 @@ export const rna = {
       object: "card",
       id: "5ef592d1-e5e1-4252-8741-402c32d65dfd",
       oracle_id: "3b0a97e2-e125-4f91-8581-307e3fa6b048",
-      multiverse_ids: [],
+      multiverse_ids: [457270],
       mtgo_id: 71252,
+      arena_id: 69254,
       tcgplayer_id: 183333,
       name: "Gatebreaker Ram",
       lang: "en",
@@ -9026,8 +9406,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457270",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gatebreaker+Ram\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gatebreaker+Ram",
@@ -9047,8 +9429,9 @@ export const rna = {
       object: "card",
       id: "99767e2f-a558-4d63-b9b6-923d15b433e1",
       oracle_id: "386c5895-9713-4c28-9ba8-8ca0caa06c13",
-      multiverse_ids: [],
+      multiverse_ids: [457376],
       mtgo_id: 71504,
+      arena_id: 69380,
       tcgplayer_id: 182123,
       name: "Gate Colossus",
       lang: "en",
@@ -9124,8 +9507,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.11",
+      usd: "0.07",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457376",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gate+Colossus\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gate+Colossus",
@@ -9145,8 +9530,9 @@ export const rna = {
       object: "card",
       id: "2b574b44-01e1-4197-99bd-57e54aebc5ff",
       oracle_id: "3b97bf8e-d5c4-4eae-a453-73456e0461a1",
-      multiverse_ids: [],
+      multiverse_ids: [457246],
       mtgo_id: 71204,
+      arena_id: 69230,
       tcgplayer_id: 183212,
       name: "Gates Ablaze",
       lang: "en",
@@ -9222,8 +9608,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.21",
+      usd: "0.19",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457246",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gates+Ablaze\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gates+Ablaze",
@@ -9243,8 +9631,9 @@ export const rna = {
       object: "card",
       id: "3433a2c2-d252-4cd8-97e8-389875b2cda0",
       oracle_id: "a6543f71-0326-4e1f-b58f-9ce325d5d036",
-      multiverse_ids: [],
+      multiverse_ids: [457391],
       mtgo_id: 71534,
+      arena_id: 69395,
       tcgplayer_id: 183344,
       name: "Gateway Plaza",
       lang: "en",
@@ -9320,9 +9709,11 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 409,
+      edhrec_rank: 408,
       usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457391",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gateway+Plaza\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gateway+Plaza",
@@ -9342,8 +9733,9 @@ export const rna = {
       object: "card",
       id: "edc0229d-05e6-41b7-b7a9-2a8b2b258add",
       oracle_id: "66c227f2-0e74-43e2-ab24-3866d15c5eef",
-      multiverse_ids: [],
+      multiverse_ids: [457184],
       mtgo_id: 71080,
+      arena_id: 69168,
       tcgplayer_id: 183332,
       name: "Gateway Sneak",
       lang: "en",
@@ -9421,8 +9813,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.14",
+      usd: "0.13",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457184",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gateway+Sneak\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gateway+Sneak",
@@ -9442,8 +9836,9 @@ export const rna = {
       object: "card",
       id: "821c4ab5-eb75-445a-bbec-e50af54dba7a",
       oracle_id: "57c704bc-8dff-4b90-b4e1-38d12e41b3d1",
-      multiverse_ids: [],
+      multiverse_ids: [457320],
       mtgo_id: 71352,
+      arena_id: 69304,
       tcgplayer_id: 183359,
       name: "Get the Point",
       lang: "en",
@@ -9521,6 +9916,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457320",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Get+the+Point\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Get+the+Point",
@@ -9540,8 +9937,9 @@ export const rna = {
       object: "card",
       id: "4da3969c-1979-4eee-828a-4a7189121eba",
       oracle_id: "b113285c-80b2-46dd-874e-201d26979518",
-      multiverse_ids: [],
+      multiverse_ids: [457247],
       mtgo_id: 71206,
+      arena_id: 69231,
       tcgplayer_id: 183390,
       name: "Ghor-Clan Wrecker",
       lang: "en",
@@ -9570,7 +9968,7 @@ export const rna = {
       cmc: 4.0,
       type_line: "Creature — Human Warrior",
       oracle_text:
-        "Riot (This creature enters the battlefield with your choice of a +1/1+ counter or haste.)\nMenace (This creature can't be blocked except by two or more creatures.)",
+        "Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)\nMenace (This creature can't be blocked except by two or more creatures.)",
       power: "2",
       toughness: "2",
       colors: ["R"],
@@ -9622,6 +10020,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457247",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Ghor-Clan+Wrecker\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Ghor-Clan+Wrecker",
@@ -9641,8 +10041,9 @@ export const rna = {
       object: "card",
       id: "bb363b1d-0b80-453c-98ca-e9f873bb7add",
       oracle_id: "fe971240-268a-47d4-a14e-3d6352656091",
-      multiverse_ids: [],
+      multiverse_ids: [457271],
       mtgo_id: 71254,
+      arena_id: 69255,
       tcgplayer_id: 183415,
       name: "Gift of Strength",
       lang: "en",
@@ -9718,9 +10119,11 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 10987,
+      edhrec_rank: 10989,
       usd: "0.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457271",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gift+of+Strength\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gift+of+Strength",
@@ -9740,8 +10143,9 @@ export const rna = {
       object: "card",
       id: "d1022d41-c1d0-42bf-b3e5-d6fb02d47119",
       oracle_id: "a967921c-cfd4-422c-a08b-42cdd80f89c0",
-      multiverse_ids: [],
+      multiverse_ids: [457377],
       mtgo_id: 71506,
+      arena_id: 69381,
       tcgplayer_id: 183377,
       name: "Glass of the Guildpact",
       lang: "en",
@@ -9816,8 +10220,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "1.53",
+      usd: "1.29",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457377",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Glass+of+the+Guildpact\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Glass+of+the+Guildpact",
@@ -9837,8 +10243,9 @@ export const rna = {
       object: "card",
       id: "147bef05-4497-44d5-9dd6-fb5dc08e78f7",
       oracle_id: "01f06642-015f-40b4-a940-af576ad9e82c",
-      multiverse_ids: [],
+      multiverse_ids: [457248],
       mtgo_id: 71208,
+      arena_id: 69232,
       tcgplayer_id: 183392,
       name: "Goblin Gathering",
       lang: "en",
@@ -9913,8 +10320,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.13",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457248",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Goblin+Gathering\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Goblin+Gathering",
@@ -9934,8 +10343,9 @@ export const rna = {
       object: "card",
       id: "ced4c824-2dfc-42ae-84e6-09f8e3f51b5b",
       oracle_id: "73864fcc-1bde-4bc0-831e-2b93e546e417",
-      multiverse_ids: [],
+      multiverse_ids: [457392],
       mtgo_id: 71536,
+      arena_id: 69396,
       tcgplayer_id: 182836,
       name: "Godless Shrine",
       lang: "en",
@@ -10013,8 +10423,10 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       edhrec_rank: 73,
-      usd: "7.08",
+      usd: "6.91",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457392",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Godless+Shrine\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Godless+Shrine",
@@ -10034,8 +10446,9 @@ export const rna = {
       object: "card",
       id: "56f82d97-ce50-490c-ad7f-46d70a73e454",
       oracle_id: "ec8a14d4-6ca0-43b1-abf6-0c129daf8350",
-      multiverse_ids: [],
+      multiverse_ids: [457321],
       mtgo_id: 71354,
+      arena_id: 69305,
       tcgplayer_id: 183084,
       name: "Grasping Thrull",
       lang: "en",
@@ -10114,8 +10527,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.19",
+      usd: "0.17",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457321",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Grasping+Thrull\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Grasping+Thrull",
@@ -10135,8 +10550,9 @@ export const rna = {
       object: "card",
       id: "4942068c-ffde-4a6b-849e-8acf05e1d2e1",
       oracle_id: "71d284ee-5b29-4db3-b355-a6bdc142a05b",
-      multiverse_ids: [],
+      multiverse_ids: [457249],
       mtgo_id: 71210,
+      arena_id: 69233,
       tcgplayer_id: 183395,
       name: "Gravel-Hide Goblin",
       lang: "en",
@@ -10214,8 +10630,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.14",
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457249",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gravel-Hide+Goblin\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gravel-Hide+Goblin",
@@ -10235,8 +10653,9 @@ export const rna = {
       object: "card",
       id: "b698c5e1-3816-4f35-8e39-65dc68f5c64f",
       oracle_id: "eed4651b-4c45-4136-9e3d-44471031368f",
-      multiverse_ids: [],
+      multiverse_ids: [457219],
       mtgo_id: 71150,
+      arena_id: 69203,
       tcgplayer_id: 183422,
       name: "Grotesque Demise",
       lang: "en",
@@ -10313,6 +10732,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457219",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Grotesque+Demise\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Grotesque+Demise",
@@ -10332,8 +10753,9 @@ export const rna = {
       object: "card",
       id: "0f97cdf4-231d-4bd0-af5e-bcb64ce1556c",
       oracle_id: "1a49ec1c-6150-4b46-b671-b7d6f4e301ae",
-      multiverse_ids: [],
+      multiverse_ids: [457272],
       mtgo_id: 71256,
+      arena_id: 69256,
       tcgplayer_id: 182962,
       name: "Growth-Chamber Guardian",
       lang: "en",
@@ -10410,8 +10832,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "3.68",
+      usd: "4.36",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457272",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Growth-Chamber+Guardian\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Growth-Chamber+Guardian",
@@ -10431,8 +10855,9 @@ export const rna = {
       object: "card",
       id: "7c77a6b1-ef06-4da5-8e86-a5204216cb77",
       oracle_id: "34bcc217-dd91-45a0-90d7-a94d02f1f317",
-      multiverse_ids: [],
+      multiverse_ids: [457322],
       mtgo_id: 71356,
+      arena_id: 69306,
       tcgplayer_id: 182125,
       name: "Growth Spiral",
       lang: "en",
@@ -10509,8 +10934,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.29",
+      usd: "0.24",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457322",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Growth+Spiral\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Growth+Spiral",
@@ -10530,8 +10957,9 @@ export const rna = {
       object: "card",
       id: "2b0aaded-515f-4ac9-a72f-6948b4d4df51",
       oracle_id: "924771b2-8566-4bdf-b089-85c3257b9900",
-      multiverse_ids: [],
+      multiverse_ids: [457273],
       mtgo_id: 71258,
+      arena_id: 69257,
       tcgplayer_id: 183176,
       name: "Gruul Beastmaster",
       lang: "en",
@@ -10610,6 +11038,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.36",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457273",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gruul+Beastmaster\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gruul+Beastmaster",
@@ -10629,8 +11059,9 @@ export const rna = {
       object: "card",
       id: "33d10573-1695-4a73-b92d-d478572b85ec",
       oracle_id: "d38476e9-2e47-4c0c-8129-483c0bd09ec0",
-      multiverse_ids: [],
+      multiverse_ids: [457393],
       mtgo_id: 71538,
+      arena_id: 69397,
       name: "Gruul Guildgate",
       lang: "en",
       released_at: "2019-01-25",
@@ -10642,17 +11073,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1546513986",
+          "https://img.scryfall.com/cards/small/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459",
         normal:
-          "https://img.scryfall.com/cards/normal/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1546513986",
+          "https://img.scryfall.com/cards/normal/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459",
         large:
-          "https://img.scryfall.com/cards/large/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1546513986",
+          "https://img.scryfall.com/cards/large/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459",
         png:
-          "https://img.scryfall.com/cards/png/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.png?1546513986",
+          "https://img.scryfall.com/cards/png/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.png?1547579459",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1546513986",
+          "https://img.scryfall.com/cards/art_crop/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1546513986"
+          "https://img.scryfall.com/cards/border_crop/front/3/3/33d10573-1695-4a73-b92d-d478572b85ec.jpg?1547579459"
       },
       mana_cost: "",
       cmc: 0.0,
@@ -10706,8 +11137,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 841,
+      edhrec_rank: 837,
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457393",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gruul+Guildgate\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gruul+Guildgate",
@@ -10727,8 +11160,9 @@ export const rna = {
       object: "card",
       id: "1ec78880-a8ec-4c87-bc3f-e2a79d154884",
       oracle_id: "7018ccd0-96e6-458f-b412-197edcb2bafd",
-      multiverse_ids: [],
+      multiverse_ids: [457378],
       mtgo_id: 71508,
+      arena_id: 69382,
       tcgplayer_id: 182834,
       name: "Gruul Locket",
       lang: "en",
@@ -10807,6 +11241,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457378",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gruul+Locket\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gruul+Locket",
@@ -10826,8 +11262,9 @@ export const rna = {
       object: "card",
       id: "326679a2-782d-45a0-9a06-b147ceff3979",
       oracle_id: "827b3ed0-09b3-4d89-8b81-dd89cc002782",
-      multiverse_ids: [],
+      multiverse_ids: [457323],
       mtgo_id: 71358,
+      arena_id: 69307,
       tcgplayer_id: 182363,
       name: "Gruul Spellbreaker",
       lang: "en",
@@ -10905,8 +11342,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "4.45",
+      usd: "4.43",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457323",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gruul+Spellbreaker\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gruul+Spellbreaker",
@@ -10926,8 +11365,9 @@ export const rna = {
       object: "card",
       id: "ccad6ce0-ddf0-458d-bdae-3d7805fdc775",
       oracle_id: "4f9e07ae-6341-4b46-9f77-f17ab659d266",
-      multiverse_ids: [],
+      multiverse_ids: [457274],
       mtgo_id: 71260,
+      arena_id: 69258,
       tcgplayer_id: 183213,
       name: "Guardian Project",
       lang: "en",
@@ -10956,7 +11396,7 @@ export const rna = {
       cmc: 4.0,
       type_line: "Enchantment",
       oracle_text:
-        "Whenever a nontoken creature enters the battlefield under your control, if that creature does not have the same name as another creature you control or a creature card in your graveyard, draw a card.",
+        "Whenever a nontoken creature enters the battlefield under your control, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
       colors: ["G"],
       color_identity: ["G"],
       legalities: {
@@ -11002,8 +11442,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "1.16",
+      usd: "1.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457274",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Guardian+Project\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Guardian+Project",
@@ -11023,8 +11465,9 @@ export const rna = {
       object: "card",
       id: "6a1c710b-bd67-4174-ab02-6ae98a7575ac",
       oracle_id: "76ae3779-c821-4cd3-8d0f-8c42d1206ce4",
-      multiverse_ids: [],
+      multiverse_ids: [457220],
       mtgo_id: 71152,
+      arena_id: 69204,
       tcgplayer_id: 183034,
       name: "Gutterbones",
       lang: "en",
@@ -11101,8 +11544,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "1.69",
+      usd: "1.52",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457220",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gutterbones\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gutterbones",
@@ -11122,8 +11567,9 @@ export const rna = {
       object: "card",
       id: "26dd6a1d-4dcb-4392-9856-c0e4140efbd7",
       oracle_id: "27eef5c1-259a-4d37-93af-7451f50905af",
-      multiverse_ids: [],
+      multiverse_ids: [457324],
       mtgo_id: 71360,
+      arena_id: 69308,
       tcgplayer_id: 183214,
       name: "Gyre Engineer",
       lang: "en",
@@ -11201,8 +11647,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.24",
+      usd: "0.21",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457324",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Gyre+Engineer\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Gyre+Engineer",
@@ -11222,8 +11670,9 @@ export const rna = {
       object: "card",
       id: "5ba5f096-c6ea-4db6-966b-617e3454813f",
       oracle_id: "35023c04-ae62-47bf-80a0-faa2d7a67788",
-      multiverse_ids: [],
+      multiverse_ids: [457154],
       mtgo_id: 71020,
+      arena_id: 69138,
       tcgplayer_id: 183368,
       name: "Haazda Officer",
       lang: "en",
@@ -11301,8 +11750,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457154",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Haazda+Officer\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Haazda+Officer",
@@ -11322,8 +11773,9 @@ export const rna = {
       object: "card",
       id: "a41335c2-3d11-4f95-8d9f-66b04398c10b",
       oracle_id: "65ce903f-8c3e-4283-9b6e-ee9b3176f059",
-      multiverse_ids: [],
+      multiverse_ids: [457325],
       mtgo_id: 71362,
+      arena_id: 69309,
       tcgplayer_id: 183179,
       name: "Hackrobat",
       lang: "en",
@@ -11401,8 +11853,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.19",
+      usd: "0.17",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457325",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Hackrobat\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Hackrobat",
@@ -11422,8 +11876,9 @@ export const rna = {
       object: "card",
       id: "f97a6d34-03ab-49f1-b02e-405b733f8843",
       oracle_id: "f1750962-a87c-49f6-b731-02ae971ac6ea",
-      multiverse_ids: [],
+      multiverse_ids: [457395],
       mtgo_id: 71542,
+      arena_id: 69399,
       tcgplayer_id: 182831,
       name: "Hallowed Fountain",
       lang: "en",
@@ -11500,8 +11955,10 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       edhrec_rank: 74,
-      usd: "7.54",
+      usd: "7.39",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457395",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Hallowed+Fountain\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Hallowed+Fountain",
@@ -11521,8 +11978,9 @@ export const rna = {
       object: "card",
       id: "87732718-1067-4e5f-a76d-409539c9ef3f",
       oracle_id: "5a66802a-76f9-4a31-a776-24110dcfca64",
-      multiverse_ids: [],
+      multiverse_ids: [457155],
       mtgo_id: 71022,
+      arena_id: 69139,
       tcgplayer_id: 183248,
       name: "Hero of Precinct One",
       lang: "en",
@@ -11600,8 +12058,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "2.06",
+      usd: "2.14",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457155",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Hero+of+Precinct+One\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Hero+of+Precinct+One",
@@ -11621,8 +12081,9 @@ export const rna = {
       object: "card",
       id: "ce124f6e-ef0c-4d01-a876-e34d3e445108",
       oracle_id: "5f657279-cc0f-4431-b517-47bd1c7109b6",
-      multiverse_ids: [],
+      multiverse_ids: [457326],
       mtgo_id: 71364,
+      arena_id: 69310,
       tcgplayer_id: 183062,
       name: "High Alert",
       lang: "en",
@@ -11697,8 +12158,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.31",
+      usd: "0.27",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457326",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=High+Alert\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=High+Alert",
@@ -11718,8 +12181,9 @@ export const rna = {
       object: "card",
       id: "21982dc7-4f79-4251-8382-95cd1f627e0f",
       oracle_id: "395922cc-d524-4241-a7d8-9c7959f0b9db",
-      multiverse_ids: [],
+      multiverse_ids: [457185],
       mtgo_id: 71082,
+      arena_id: 69169,
       tcgplayer_id: 183113,
       name: "Humongulus",
       lang: "en",
@@ -11797,8 +12261,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.29",
+      usd: "0.22",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457185",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Humongulus\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Humongulus",
@@ -11818,8 +12284,9 @@ export const rna = {
       object: "card",
       id: "801dd9c6-b159-4e1c-af2c-214c1f573633",
       oracle_id: "6bd872b2-5c40-4e11-9a7f-0136a51b0642",
-      multiverse_ids: [],
+      multiverse_ids: [457327],
       mtgo_id: 71366,
+      arena_id: 69311,
       tcgplayer_id: 182840,
       name: "Hydroid Krasis",
       lang: "en",
@@ -11897,8 +12364,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "8.89",
+      usd: "8.37",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457327",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Hydroid+Krasis\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Hydroid+Krasis",
@@ -11918,8 +12387,9 @@ export const rna = {
       object: "card",
       id: "3d44b342-f611-4836-a9d5-83b00a24318f",
       oracle_id: "84e8ca5e-730e-468b-943c-7c6358ade95c",
-      multiverse_ids: [],
+      multiverse_ids: [457221],
       mtgo_id: 71154,
+      arena_id: 69205,
       tcgplayer_id: 183424,
       name: "Ill-Gotten Inheritance",
       lang: "en",
@@ -11994,8 +12464,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.13",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457221",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Ill-Gotten+Inheritance\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Ill-Gotten+Inheritance",
@@ -12015,8 +12487,9 @@ export const rna = {
       object: "card",
       id: "45e668e5-ef50-43eb-852e-b111370459c8",
       oracle_id: "cf681c9e-a644-44c7-b744-34faafc67d50",
-      multiverse_ids: [],
+      multiverse_ids: [457250],
       mtgo_id: 71212,
+      arena_id: 69234,
       tcgplayer_id: 183192,
       name: "Immolation Shaman",
       lang: "en",
@@ -12093,8 +12566,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "2.64",
+      usd: "1.57",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457250",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Immolation+Shaman\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Immolation+Shaman",
@@ -12114,8 +12589,9 @@ export const rna = {
       object: "card",
       id: "2bd746e3-8934-4c86-894e-2cb1738b1d58",
       oracle_id: "c7107a2d-2dcf-42e9-9ea9-d0fc0d6d2ec6",
-      multiverse_ids: [],
+      multiverse_ids: [457156],
       mtgo_id: 71024,
+      arena_id: 69140,
       tcgplayer_id: 183371,
       name: "Impassioned Orator",
       lang: "en",
@@ -12193,8 +12669,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.13",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457156",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Impassioned+Orator\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Impassioned+Orator",
@@ -12214,8 +12692,9 @@ export const rna = {
       object: "card",
       id: "fd27ba9e-5b9c-468f-9a44-bf2e89138e72",
       oracle_id: "b0381c2a-40e2-4002-82e3-ae2d687daed3",
-      multiverse_ids: [],
+      multiverse_ids: [457328],
       mtgo_id: 71368,
+      arena_id: 69312,
       tcgplayer_id: 182206,
       name: "Imperious Oligarch",
       lang: "en",
@@ -12294,8 +12773,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.16",
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457328",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Imperious+Oligarch\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Imperious+Oligarch",
@@ -12315,8 +12796,9 @@ export const rna = {
       object: "card",
       id: "075bbe5d-d0f3-4be3-a3a6-072d5d3d614c",
       oracle_id: "34428f42-03ac-4795-8286-6cbea796df2b",
-      multiverse_ids: [],
+      multiverse_ids: [457275],
       mtgo_id: 71262,
+      arena_id: 69259,
       tcgplayer_id: 183313,
       name: "Incubation Druid",
       lang: "en",
@@ -12393,8 +12875,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "3.74",
+      usd: "3.58",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457275",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Incubation+Druid\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Incubation+Druid",
@@ -12414,8 +12898,9 @@ export const rna = {
       object: "card",
       id: "dd3a4d6e-34ae-4047-a9c7-11e28b0a276d",
       oracle_id: "363edb16-009f-4cc2-99e3-2b15db84e7af",
-      multiverse_ids: [],
+      multiverse_ids: [457370],
       mtgo_id: 71476,
+      arena_id: 69364,
       tcgplayer_id: 182411,
       name: "Incubation // Incongruity",
       lang: "en",
@@ -12428,17 +12913,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547235511",
+          "https://img.scryfall.com/cards/small/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547582042",
         normal:
-          "https://img.scryfall.com/cards/normal/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547235511",
+          "https://img.scryfall.com/cards/normal/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547582042",
         large:
-          "https://img.scryfall.com/cards/large/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547235511",
+          "https://img.scryfall.com/cards/large/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547582042",
         png:
-          "https://img.scryfall.com/cards/png/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.png?1547235511",
+          "https://img.scryfall.com/cards/png/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.png?1547582042",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547235511",
+          "https://img.scryfall.com/cards/art_crop/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547582042",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547235511"
+          "https://img.scryfall.com/cards/border_crop/front/d/d/dd3a4d6e-34ae-4047-a9c7-11e28b0a276d.jpg?1547582042"
       },
       mana_cost: "{G/U} // {1}{G}{U}",
       cmc: 1.0,
@@ -12512,6 +12997,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.40",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457370",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Incubation+%2F%2F+Incongruity\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Incubation",
@@ -12529,10 +13016,106 @@ export const rna = {
     },
     {
       object: "card",
+      id: "197f5bd0-5ab3-4bf4-b20e-1389c0e9527a",
+      oracle_id: "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+      multiverse_ids: [459995],
+      mtgo_id: 70976,
+      arena_id: 69409,
+      name: "Island",
+      lang: "en",
+      released_at: "2019-01-25",
+      uri:
+        "https://api.scryfall.com/cards/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a",
+      scryfall_uri: "https://scryfall.com/card/rna/261/island?utm_source=api",
+      layout: "normal",
+      highres_image: false,
+      image_uris: {
+        small:
+          "https://img.scryfall.com/cards/small/front/1/9/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a.jpg?1547578299",
+        normal:
+          "https://img.scryfall.com/cards/normal/front/1/9/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a.jpg?1547578299",
+        large:
+          "https://img.scryfall.com/cards/large/front/1/9/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a.jpg?1547578299",
+        png:
+          "https://img.scryfall.com/cards/png/front/1/9/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a.png?1547578299",
+        art_crop:
+          "https://img.scryfall.com/cards/art_crop/front/1/9/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a.jpg?1547578299",
+        border_crop:
+          "https://img.scryfall.com/cards/border_crop/front/1/9/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a.jpg?1547578299"
+      },
+      mana_cost: "",
+      cmc: 0.0,
+      type_line: "Basic Land — Island",
+      oracle_text: "({T}: Add {U}.)",
+      colors: [],
+      color_identity: ["U"],
+      legalities: {
+        standard: "legal",
+        future: "legal",
+        frontier: "legal",
+        modern: "legal",
+        legacy: "legal",
+        pauper: "legal",
+        vintage: "legal",
+        penny: "legal",
+        commander: "legal",
+        "1v1": "legal",
+        duel: "legal",
+        brawl: "legal"
+      },
+      games: ["arena", "mtgo", "paper"],
+      reserved: false,
+      foil: true,
+      nonfoil: true,
+      oversized: false,
+      promo: false,
+      reprint: true,
+      set: "rna",
+      set_name: "Ravnica Allegiance",
+      set_uri:
+        "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
+      set_search_uri:
+        "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Arna\u0026unique=prints",
+      scryfall_set_uri: "https://scryfall.com/sets/rna?utm_source=api",
+      rulings_uri:
+        "https://api.scryfall.com/cards/197f5bd0-5ab3-4bf4-b20e-1389c0e9527a/rulings",
+      prints_search_uri:
+        "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Ab2c6aa39-2d2a-459c-a555-fb48ba993373\u0026unique=prints",
+      collector_number: "261",
+      digital: false,
+      rarity: "common",
+      illustration_id: "27844319-cdf9-4afd-87c8-d48a66188b13",
+      artist: "Eytan Zana",
+      border_color: "black",
+      frame: "2015",
+      frame_effect: "",
+      full_art: false,
+      story_spotlight: false,
+      related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=459995",
+        tcgplayer_decks:
+          "https://decks.tcgplayer.com/magic/deck/search?contains=Island\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+        edhrec: "http://edhrec.com/route/?cc=Island",
+        mtgtop8:
+          "http://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Island"
+      },
+      purchase_uris: {
+        tcgplayer:
+          "https://shop.tcgplayer.com/productcatalog/product/show?ProductName=Island\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+        cardmarket:
+          "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Island",
+        cardhoarder:
+          "https://www.cardhoarder.com/cards/70976?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      object: "card",
       id: "0a742125-730d-4082-bfd8-5feb7733def4",
       oracle_id: "c01516e0-eec3-4370-b935-7674982e8850",
-      multiverse_ids: [],
+      multiverse_ids: [457329],
       mtgo_id: 71370,
+      arena_id: 69313,
       tcgplayer_id: 182949,
       name: "Judith, the Scourge Diva",
       lang: "en",
@@ -12611,8 +13194,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "1.99",
+      usd: "4.23",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457329",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Judith%2C+the+Scourge+Diva\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Judith%2C+the+Scourge+Diva",
@@ -12632,8 +13217,9 @@ export const rna = {
       object: "card",
       id: "03fd8ee5-0a2a-4c68-9b09-01945c7189ab",
       oracle_id: "6ef46fd7-82db-45d3-b02e-7312384577f3",
-      multiverse_ids: [],
+      multiverse_ids: [457379],
       mtgo_id: 71510,
+      arena_id: 69383,
       tcgplayer_id: 183378,
       name: "Junktroller",
       lang: "en",
@@ -12646,23 +13232,23 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547235557",
+          "https://img.scryfall.com/cards/small/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547580949",
         normal:
-          "https://img.scryfall.com/cards/normal/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547235557",
+          "https://img.scryfall.com/cards/normal/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547580949",
         large:
-          "https://img.scryfall.com/cards/large/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547235557",
+          "https://img.scryfall.com/cards/large/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547580949",
         png:
-          "https://img.scryfall.com/cards/png/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.png?1547235557",
+          "https://img.scryfall.com/cards/png/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.png?1547580949",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547235557",
+          "https://img.scryfall.com/cards/art_crop/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547580949",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547235557"
+          "https://img.scryfall.com/cards/border_crop/front/0/3/03fd8ee5-0a2a-4c68-9b09-01945c7189ab.jpg?1547580949"
       },
       mana_cost: "{4}",
       cmc: 4.0,
       type_line: "Artifact Creature — Golem",
       oracle_text:
-        "Defender (This creature can't attack.)\n{T}: Put target card from a graveyard on the bottom of its owner's library.",
+        "Defender\n{T}: Put target card from a graveyard on the bottom of its owner's library.",
       power: "0",
       toughness: "6",
       colors: [],
@@ -12704,15 +13290,17 @@ export const rna = {
       rarity: "uncommon",
       flavor_text: '"Hey, wait! That\'s my boot!"\n—Darijo, Ivy Street ruffian',
       illustration_id: "6d908b57-5417-4599-b175-3f1c86b2c60e",
-      artist: "Chris Rallis",
+      artist: "Chris Seaman",
       border_color: "black",
       frame: "2015",
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 4816,
-      usd: "0.20",
+      edhrec_rank: 4818,
+      usd: "0.16",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457379",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Junktroller\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Junktroller",
@@ -12732,8 +13320,9 @@ export const rna = {
       object: "card",
       id: "1df611df-3490-4b07-8034-6da9a0122a81",
       oracle_id: "0214805d-d207-42da-a25f-2a8e1990904e",
-      multiverse_ids: [],
+      multiverse_ids: [457157],
       mtgo_id: 71026,
+      arena_id: 69141,
       tcgplayer_id: 183374,
       name: "Justiciar's Portal",
       lang: "en",
@@ -12809,8 +13398,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.14",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457157",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Justiciar%27s+Portal\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Justiciar%27s+Portal",
@@ -12830,8 +13421,9 @@ export const rna = {
       object: "card",
       id: "fdb4b2ef-5196-4f7f-88ff-64b2cdb36c6b",
       oracle_id: "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
-      multiverse_ids: [],
+      multiverse_ids: [457330],
       mtgo_id: 71372,
+      arena_id: 69314,
       tcgplayer_id: 182951,
       name: "Kaya, Orzhov Usurper",
       lang: "en",
@@ -12860,7 +13452,7 @@ export const rna = {
       cmc: 3.0,
       type_line: "Legendary Planeswalker — Kaya",
       oracle_text:
-        "+1: Exile up to two target cards from a single graveyard. You gain 2 life if at least one creature card was exiled this way.\n-1: Exile target nonland permanent with converted mana cost 1 or less.\n-5: Kaya, Orzhov Usurper deals damage to target player equal to the number of cards that player owns in exile and you gain that much life.",
+        "+1: Exile up to two target cards from a single graveyard. You gain 2 life if at least one creature card was exiled this way.\n−1: Exile target nonland permanent with converted mana cost 1 or less.\n−5: Kaya, Orzhov Usurper deals damage to target player equal to the number of cards that player owns in exile and you gain that much life.",
       loyalty: "3",
       colors: ["B", "W"],
       color_identity: ["B", "W"],
@@ -12906,8 +13498,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "10.06",
+      usd: "9.07",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457330",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Kaya%2C+Orzhov+Usurper\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Kaya%2C+Orzhov+Usurper",
@@ -12927,8 +13521,9 @@ export const rna = {
       object: "card",
       id: "5ed140c1-752b-4539-88f2-1fa354049b17",
       oracle_id: "bc8de6c7-c69d-4add-8f25-825d945874f9",
-      multiverse_ids: [],
+      multiverse_ids: [457331],
       mtgo_id: 71374,
+      arena_id: 69315,
       tcgplayer_id: 183178,
       name: "Kaya's Wrath",
       lang: "en",
@@ -13004,8 +13599,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: true,
-      usd: "6.27",
+      usd: "5.62",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457331",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Kaya%27s+Wrath\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Kaya%27s+Wrath",
@@ -13025,8 +13622,9 @@ export const rna = {
       object: "card",
       id: "6ce239e9-9b35-4dde-8a44-6c7ce4eb2d1a",
       oracle_id: "50f644d6-2597-4ad6-8ea8-6b09056f90c0",
-      multiverse_ids: [],
+      multiverse_ids: [457158],
       mtgo_id: 71028,
+      arena_id: 69142,
       tcgplayer_id: 183376,
       name: "Knight of Sorrows",
       lang: "en",
@@ -13105,8 +13703,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457158",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Knight+of+Sorrows\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Knight+of+Sorrows",
@@ -13126,8 +13726,9 @@ export const rna = {
       object: "card",
       id: "76fccf60-2df5-4c14-893f-41d3f86c545f",
       oracle_id: "67791323-bf21-4c72-bf57-32197d3d5775",
-      multiverse_ids: [],
+      multiverse_ids: [457332],
       mtgo_id: 71376,
+      arena_id: 69316,
       tcgplayer_id: 183328,
       name: "Knight of the Last Breath",
       lang: "en",
@@ -13204,8 +13805,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.14",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457332",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Knight+of+the+Last+Breath\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Knight+of+the+Last+Breath",
@@ -13225,8 +13828,9 @@ export const rna = {
       object: "card",
       id: "c497d496-1232-4614-93b0-9864fa93c29f",
       oracle_id: "81ba3a33-0e04-4f68-9a42-1dd717733b57",
-      multiverse_ids: [],
+      multiverse_ids: [457333],
       mtgo_id: 71378,
+      arena_id: 69317,
       tcgplayer_id: 182131,
       name: "Lavinia, Azorius Renegade",
       lang: "en",
@@ -13305,8 +13909,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "5.00",
+      usd: "4.59",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457333",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Lavinia%2C+Azorius+Renegade\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Lavinia%2C+Azorius+Renegade",
@@ -13326,8 +13932,9 @@ export const rna = {
       object: "card",
       id: "a8a7be1f-3fba-4ff2-a4f1-aebd3d20da8f",
       oracle_id: "10f0e797-3887-4c2b-9cff-80f110b952e1",
-      multiverse_ids: [],
+      multiverse_ids: [457334],
       mtgo_id: 71380,
+      arena_id: 69318,
       tcgplayer_id: 183360,
       name: "Lawmage's Binding",
       lang: "en",
@@ -13402,8 +14009,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.14",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457334",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Lawmage%27s+Binding\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Lawmage%27s+Binding",
@@ -13423,8 +14032,9 @@ export const rna = {
       object: "card",
       id: "9287b848-2aeb-4c70-ac4a-acafb871b7a4",
       oracle_id: "8d286376-f386-43ab-a9bd-8478fb9e2497",
-      multiverse_ids: [],
+      multiverse_ids: [457251],
       mtgo_id: 71214,
+      arena_id: 69235,
       tcgplayer_id: 182127,
       name: "Light Up the Stage",
       lang: "en",
@@ -13500,8 +14110,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.59",
+      usd: "0.53",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457251",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Light+Up+the+Stage\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Light+Up+the+Stage",
@@ -13521,8 +14133,9 @@ export const rna = {
       object: "card",
       id: "2469bc93-57ca-4077-bda2-160b4160adad",
       oracle_id: "dcf7d099-a726-4388-9744-70d37c5ea860",
-      multiverse_ids: [],
+      multiverse_ids: [457159],
       mtgo_id: 71030,
+      arena_id: 69143,
       tcgplayer_id: 183249,
       name: "Lumbering Battlement",
       lang: "en",
@@ -13598,8 +14211,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.81",
+      usd: "0.67",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457159",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Lumbering+Battlement\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Lumbering+Battlement",
@@ -13619,8 +14234,9 @@ export const rna = {
       object: "card",
       id: "9c1aee37-dcee-4e58-be9b-81ca57cedb53",
       oracle_id: "d66f7ee7-e9a1-4714-b79c-8c86c6b6d5dc",
-      multiverse_ids: [],
+      multiverse_ids: [457335],
       mtgo_id: 71382,
+      arena_id: 69319,
       tcgplayer_id: 183324,
       name: "Macabre Mockery",
       lang: "en",
@@ -13696,8 +14312,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.56",
+      usd: "0.50",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457335",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Macabre+Mockery\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Macabre+Mockery",
@@ -13717,8 +14335,9 @@ export const rna = {
       object: "card",
       id: "9a684871-ff6e-4474-82da-30757c324c73",
       oracle_id: "df77cb98-e3c6-4927-99d5-c3380641f356",
-      multiverse_ids: [],
+      multiverse_ids: [457276],
       mtgo_id: 71264,
+      arena_id: 69260,
       tcgplayer_id: 183418,
       name: "Mammoth Spider",
       lang: "en",
@@ -13795,9 +14414,11 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 9972,
-      usd: "0.13",
+      edhrec_rank: 9882,
+      usd: "0.11",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457276",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Mammoth+Spider\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Mammoth+Spider",
@@ -13817,8 +14438,9 @@ export const rna = {
       object: "card",
       id: "782760d7-59cc-4d40-a885-6a7980094fee",
       oracle_id: "68e87559-7cae-4dcf-b7cd-a61f19bcd840",
-      multiverse_ids: [],
+      multiverse_ids: [457186],
       mtgo_id: 71084,
+      arena_id: 69170,
       tcgplayer_id: 182954,
       name: "Mass Manipulation",
       lang: "en",
@@ -13893,8 +14515,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.43",
+      usd: "0.24",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457186",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Mass+Manipulation\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Mass+Manipulation",
@@ -13914,8 +14538,9 @@ export const rna = {
       object: "card",
       id: "5bed7c69-1302-4c1a-b410-b4e6c4ef4c0c",
       oracle_id: "f36d3d87-5596-4c26-b8d0-f2979a166b57",
-      multiverse_ids: [],
+      multiverse_ids: [457187],
       mtgo_id: 71086,
+      arena_id: 69171,
       tcgplayer_id: 183174,
       name: "Mesmerizing Benthid",
       lang: "en",
@@ -13991,8 +14616,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "4.53",
+      usd: "4.01",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457187",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Mesmerizing+Benthid\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Mesmerizing+Benthid",
@@ -14012,8 +14639,9 @@ export const rna = {
       object: "card",
       id: "bf2a093a-25f0-4247-94dc-550865d86317",
       oracle_id: "0cee5539-d10b-4de2-aee8-e02f0e24ac26",
-      multiverse_ids: [],
+      multiverse_ids: [457160],
       mtgo_id: 71032,
+      arena_id: 69144,
       tcgplayer_id: 183187,
       name: "Ministrant of Obligation",
       lang: "en",
@@ -14092,8 +14720,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.29",
+      usd: "0.21",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457160",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Ministrant+of+Obligation\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Ministrant+of+Obligation",
@@ -14113,8 +14743,9 @@ export const rna = {
       object: "card",
       id: "50a27943-f08c-4cbd-affb-8e59411b3d4f",
       oracle_id: "945eaa8b-0ba5-45a6-a02a-763e5bfe3af8",
-      multiverse_ids: [],
+      multiverse_ids: [457252],
       mtgo_id: 71216,
+      arena_id: 69236,
       tcgplayer_id: 183215,
       name: "Mirror March",
       lang: "en",
@@ -14188,8 +14819,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.83",
+      usd: "0.66",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457252",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Mirror+March\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Mirror+March",
@@ -14209,8 +14842,9 @@ export const rna = {
       object: "card",
       id: "ebf6c0dc-5c7b-4170-99bc-2637ea44e716",
       oracle_id: "faa01ed1-ccfa-4e58-951f-cd81f9068027",
-      multiverse_ids: [],
+      multiverse_ids: [457336],
       mtgo_id: 71384,
+      arena_id: 69320,
       tcgplayer_id: 182129,
       name: "Mortify",
       lang: "en",
@@ -14285,8 +14919,10 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       edhrec_rank: 225,
-      usd: "0.23",
+      usd: "0.19",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457336",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Mortify\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Mortify",
@@ -14304,10 +14940,106 @@ export const rna = {
     },
     {
       object: "card",
+      id: "54a773e3-93f0-4bf8-ab6a-8cee939d743a",
+      oracle_id: "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      multiverse_ids: [459997],
+      mtgo_id: 70980,
+      arena_id: 69411,
+      name: "Mountain",
+      lang: "en",
+      released_at: "2019-01-25",
+      uri:
+        "https://api.scryfall.com/cards/54a773e3-93f0-4bf8-ab6a-8cee939d743a",
+      scryfall_uri: "https://scryfall.com/card/rna/263/mountain?utm_source=api",
+      layout: "normal",
+      highres_image: false,
+      image_uris: {
+        small:
+          "https://img.scryfall.com/cards/small/front/5/4/54a773e3-93f0-4bf8-ab6a-8cee939d743a.jpg?1547578515",
+        normal:
+          "https://img.scryfall.com/cards/normal/front/5/4/54a773e3-93f0-4bf8-ab6a-8cee939d743a.jpg?1547578515",
+        large:
+          "https://img.scryfall.com/cards/large/front/5/4/54a773e3-93f0-4bf8-ab6a-8cee939d743a.jpg?1547578515",
+        png:
+          "https://img.scryfall.com/cards/png/front/5/4/54a773e3-93f0-4bf8-ab6a-8cee939d743a.png?1547578515",
+        art_crop:
+          "https://img.scryfall.com/cards/art_crop/front/5/4/54a773e3-93f0-4bf8-ab6a-8cee939d743a.jpg?1547578515",
+        border_crop:
+          "https://img.scryfall.com/cards/border_crop/front/5/4/54a773e3-93f0-4bf8-ab6a-8cee939d743a.jpg?1547578515"
+      },
+      mana_cost: "",
+      cmc: 0.0,
+      type_line: "Basic Land — Mountain",
+      oracle_text: "({T}: Add {R}.)",
+      colors: [],
+      color_identity: ["R"],
+      legalities: {
+        standard: "legal",
+        future: "legal",
+        frontier: "legal",
+        modern: "legal",
+        legacy: "legal",
+        pauper: "legal",
+        vintage: "legal",
+        penny: "legal",
+        commander: "legal",
+        "1v1": "legal",
+        duel: "legal",
+        brawl: "legal"
+      },
+      games: ["arena", "mtgo", "paper"],
+      reserved: false,
+      foil: true,
+      nonfoil: true,
+      oversized: false,
+      promo: false,
+      reprint: true,
+      set: "rna",
+      set_name: "Ravnica Allegiance",
+      set_uri:
+        "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
+      set_search_uri:
+        "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Arna\u0026unique=prints",
+      scryfall_set_uri: "https://scryfall.com/sets/rna?utm_source=api",
+      rulings_uri:
+        "https://api.scryfall.com/cards/54a773e3-93f0-4bf8-ab6a-8cee939d743a/rulings",
+      prints_search_uri:
+        "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Aa3fb7228-e76b-4e96-a40e-20b5fed75685\u0026unique=prints",
+      collector_number: "263",
+      digital: false,
+      rarity: "common",
+      illustration_id: "826ef990-5437-4c63-b0f3-3d21bdda7591",
+      artist: "Jonas De Ro",
+      border_color: "black",
+      frame: "2015",
+      frame_effect: "",
+      full_art: false,
+      story_spotlight: false,
+      related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=459997",
+        tcgplayer_decks:
+          "https://decks.tcgplayer.com/magic/deck/search?contains=Mountain\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+        edhrec: "http://edhrec.com/route/?cc=Mountain",
+        mtgtop8:
+          "http://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Mountain"
+      },
+      purchase_uris: {
+        tcgplayer:
+          "https://shop.tcgplayer.com/productcatalog/product/show?ProductName=Mountain\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+        cardmarket:
+          "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Mountain",
+        cardhoarder:
+          "https://www.cardhoarder.com/cards/70980?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      object: "card",
       id: "0dcdad71-323e-41e0-a1b3-9fd5b753e71c",
       oracle_id: "ebf3fd80-9574-489b-9428-f4251834bdc4",
-      multiverse_ids: [],
+      multiverse_ids: [457337],
       mtgo_id: 71386,
+      arena_id: 69321,
       tcgplayer_id: 183216,
       name: "Nikya of the Old Ways",
       lang: "en",
@@ -14386,8 +15118,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "2.04",
+      usd: "1.74",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457337",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Nikya+of+the+Old+Ways\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Nikya+of+the+Old+Ways",
@@ -14407,8 +15141,9 @@ export const rna = {
       object: "card",
       id: "b6cb3d78-1a60-4e9b-b387-afeb58677536",
       oracle_id: "aed587bf-c6e5-4850-baeb-2715cb27bf4c",
-      multiverse_ids: [],
+      multiverse_ids: [457222],
       mtgo_id: 71156,
+      arena_id: 69206,
       tcgplayer_id: 183426,
       name: "Noxious Groodion",
       lang: "en",
@@ -14485,7 +15220,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "0.08",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457222",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Noxious+Groodion\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Noxious+Groodion",
@@ -14505,8 +15243,9 @@ export const rna = {
       object: "card",
       id: "ff326c57-accb-4b75-9bc9-b5ef1a85f38d",
       oracle_id: "f38e43b6-9a8c-4f6a-bd1c-d5c4913a28a1",
-      multiverse_ids: [],
+      multiverse_ids: [457277],
       mtgo_id: 71266,
+      arena_id: 69261,
       tcgplayer_id: 183420,
       name: "Open the Gates",
       lang: "en",
@@ -14535,7 +15274,7 @@ export const rna = {
       cmc: 1.0,
       type_line: "Sorcery",
       oracle_text:
-        "Search your library for a basic land card or a Gate card, reveal it, put it into your hand, then shuffle your library.",
+        "Search your library for a basic land card or Gate card, reveal it, put it into your hand, then shuffle your library.",
       colors: ["G"],
       color_identity: ["G"],
       legalities: {
@@ -14582,8 +15321,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.19",
+      usd: "0.16",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457277",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Open+the+Gates\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Open+the+Gates",
@@ -14603,8 +15344,9 @@ export const rna = {
       object: "card",
       id: "6a72b49e-be14-485b-a467-31cbac9aa1c5",
       oracle_id: "f60b879e-82b4-442d-a544-2349429fe4c9",
-      multiverse_ids: [],
+      multiverse_ids: [457223],
       mtgo_id: 71158,
+      arena_id: 69207,
       tcgplayer_id: 183427,
       name: "Orzhov Enforcer",
       lang: "en",
@@ -14682,8 +15424,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.37",
+      usd: "0.27",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457223",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Orzhov+Enforcer\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Orzhov+Enforcer",
@@ -14703,8 +15447,9 @@ export const rna = {
       object: "card",
       id: "cba5fb67-e161-4e89-be3e-c8021122ff19",
       oracle_id: "57b37df5-fee4-4720-931f-f0cb0a8b338c",
-      multiverse_ids: [],
+      multiverse_ids: [457396],
       mtgo_id: 71544,
+      arena_id: 69400,
       name: "Orzhov Guildgate",
       lang: "en",
       released_at: "2019-01-25",
@@ -14716,17 +15461,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1546514027",
+          "https://img.scryfall.com/cards/small/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1547579495",
         normal:
-          "https://img.scryfall.com/cards/normal/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1546514027",
+          "https://img.scryfall.com/cards/normal/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1547579495",
         large:
-          "https://img.scryfall.com/cards/large/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1546514027",
+          "https://img.scryfall.com/cards/large/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1547579495",
         png:
-          "https://img.scryfall.com/cards/png/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.png?1546514027",
+          "https://img.scryfall.com/cards/png/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.png?1547579495",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1546514027",
+          "https://img.scryfall.com/cards/art_crop/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1547579495",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1546514027"
+          "https://img.scryfall.com/cards/border_crop/front/c/b/cba5fb67-e161-4e89-be3e-c8021122ff19.jpg?1547579495"
       },
       mana_cost: "",
       cmc: 0.0,
@@ -14780,8 +15525,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 470,
+      edhrec_rank: 467,
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457396",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Orzhov+Guildgate\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Orzhov+Guildgate",
@@ -14801,8 +15548,9 @@ export const rna = {
       object: "card",
       id: "761e7188-bad1-4775-84a2-15da9a42a57c",
       oracle_id: "8aaf248e-66cf-447b-b062-9aa2ab1ec864",
-      multiverse_ids: [],
+      multiverse_ids: [457380],
       mtgo_id: 71512,
+      arena_id: 69384,
       tcgplayer_id: 182835,
       name: "Orzhov Locket",
       lang: "en",
@@ -14881,6 +15629,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.16",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457380",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Orzhov+Locket\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Orzhov+Locket",
@@ -14900,8 +15650,9 @@ export const rna = {
       object: "card",
       id: "29b89f68-72ba-493d-95c4-eb37751fbd3d",
       oracle_id: "4f6c9cee-5af7-4b00-a2a4-2770dab0a2dc",
-      multiverse_ids: [],
+      multiverse_ids: [457224],
       mtgo_id: 71160,
+      arena_id: 69208,
       tcgplayer_id: 183188,
       name: "Orzhov Racketeers",
       lang: "en",
@@ -14979,8 +15730,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.23",
+      usd: "0.17",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457224",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Orzhov+Racketeers\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Orzhov+Racketeers",
@@ -15000,8 +15753,9 @@ export const rna = {
       object: "card",
       id: "e93f0c57-eb80-4dde-bdb0-326970491621",
       oracle_id: "0e488c6c-aae2-450f-b969-7bb5a1b37a66",
-      multiverse_ids: [],
+      multiverse_ids: [457188],
       mtgo_id: 71088,
+      arena_id: 69172,
       tcgplayer_id: 183310,
       name: "Persistent Petitioners",
       lang: "en",
@@ -15077,8 +15831,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "1.41",
+      usd: "0.97",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457188",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Persistent+Petitioners\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Persistent+Petitioners",
@@ -15098,8 +15854,9 @@ export const rna = {
       object: "card",
       id: "5f9a0387-5116-484b-bb2b-064bd42e7fff",
       oracle_id: "83930f98-5596-4713-998c-732d5ecedf72",
-      multiverse_ids: [],
+      multiverse_ids: [457225],
       mtgo_id: 71162,
+      arena_id: 69209,
       tcgplayer_id: 183000,
       name: "Pestilent Spirit",
       lang: "en",
@@ -15177,8 +15934,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "3.48",
+      usd: "3.00",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457225",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Pestilent+Spirit\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Pestilent+Spirit",
@@ -15198,8 +15957,9 @@ export const rna = {
       object: "card",
       id: "98f66c03-cf79-4de0-be55-b921cbdc5038",
       oracle_id: "46a9f5af-b024-497d-9f55-98d17e2ffa76",
-      multiverse_ids: [],
+      multiverse_ids: [457338],
       mtgo_id: 71388,
+      arena_id: 69322,
       tcgplayer_id: 183036,
       name: "Pitiless Pontiff",
       lang: "en",
@@ -15278,8 +16038,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.52",
+      usd: "0.43",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457338",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Pitiless+Pontiff\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Pitiless+Pontiff",
@@ -15299,8 +16061,9 @@ export const rna = {
       object: "card",
       id: "962d354f-f2ad-4b47-8666-0ed64543b676",
       oracle_id: "b7639d86-4c7c-423f-8b13-fde3086d3cbb",
-      multiverse_ids: [],
+      multiverse_ids: [457226],
       mtgo_id: 71164,
+      arena_id: 69210,
       tcgplayer_id: 183429,
       name: "Plague Wight",
       lang: "en",
@@ -15378,6 +16141,8 @@ export const rna = {
       full_art: false,
       story_spotlight: false,
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457226",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Plague+Wight\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Plague+Wight",
@@ -15395,10 +16160,106 @@ export const rna = {
     },
     {
       object: "card",
+      id: "9433619d-5bd1-41e9-ab7a-364c98347b1d",
+      oracle_id: "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+      multiverse_ids: [459994],
+      mtgo_id: 70974,
+      arena_id: 69408,
+      name: "Plains",
+      lang: "en",
+      released_at: "2019-01-25",
+      uri:
+        "https://api.scryfall.com/cards/9433619d-5bd1-41e9-ab7a-364c98347b1d",
+      scryfall_uri: "https://scryfall.com/card/rna/260/plains?utm_source=api",
+      layout: "normal",
+      highres_image: false,
+      image_uris: {
+        small:
+          "https://img.scryfall.com/cards/small/front/9/4/9433619d-5bd1-41e9-ab7a-364c98347b1d.jpg?1547578249",
+        normal:
+          "https://img.scryfall.com/cards/normal/front/9/4/9433619d-5bd1-41e9-ab7a-364c98347b1d.jpg?1547578249",
+        large:
+          "https://img.scryfall.com/cards/large/front/9/4/9433619d-5bd1-41e9-ab7a-364c98347b1d.jpg?1547578249",
+        png:
+          "https://img.scryfall.com/cards/png/front/9/4/9433619d-5bd1-41e9-ab7a-364c98347b1d.png?1547578249",
+        art_crop:
+          "https://img.scryfall.com/cards/art_crop/front/9/4/9433619d-5bd1-41e9-ab7a-364c98347b1d.jpg?1547578249",
+        border_crop:
+          "https://img.scryfall.com/cards/border_crop/front/9/4/9433619d-5bd1-41e9-ab7a-364c98347b1d.jpg?1547578249"
+      },
+      mana_cost: "",
+      cmc: 0.0,
+      type_line: "Basic Land — Plains",
+      oracle_text: "({T}: Add {W}.)",
+      colors: [],
+      color_identity: ["W"],
+      legalities: {
+        standard: "legal",
+        future: "legal",
+        frontier: "legal",
+        modern: "legal",
+        legacy: "legal",
+        pauper: "legal",
+        vintage: "legal",
+        penny: "legal",
+        commander: "legal",
+        "1v1": "legal",
+        duel: "legal",
+        brawl: "legal"
+      },
+      games: ["arena", "mtgo", "paper"],
+      reserved: false,
+      foil: true,
+      nonfoil: true,
+      oversized: false,
+      promo: false,
+      reprint: true,
+      set: "rna",
+      set_name: "Ravnica Allegiance",
+      set_uri:
+        "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
+      set_search_uri:
+        "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Arna\u0026unique=prints",
+      scryfall_set_uri: "https://scryfall.com/sets/rna?utm_source=api",
+      rulings_uri:
+        "https://api.scryfall.com/cards/9433619d-5bd1-41e9-ab7a-364c98347b1d/rulings",
+      prints_search_uri:
+        "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Abc71ebf6-2056-41f7-be35-b2e5c34afa99\u0026unique=prints",
+      collector_number: "260",
+      digital: false,
+      rarity: "common",
+      illustration_id: "7d19f458-27a9-408b-b9a6-fb64e41a33ae",
+      artist: "Titus Lunter",
+      border_color: "black",
+      frame: "2015",
+      frame_effect: "",
+      full_art: false,
+      story_spotlight: false,
+      related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=459994",
+        tcgplayer_decks:
+          "https://decks.tcgplayer.com/magic/deck/search?contains=Plains\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+        edhrec: "http://edhrec.com/route/?cc=Plains",
+        mtgtop8:
+          "http://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Plains"
+      },
+      purchase_uris: {
+        tcgplayer:
+          "https://shop.tcgplayer.com/productcatalog/product/show?ProductName=Plains\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
+        cardmarket:
+          "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Plains",
+        cardhoarder:
+          "https://www.cardhoarder.com/cards/70974?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      object: "card",
       id: "07f2ae00-206d-4984-84eb-d10ab75d3791",
       oracle_id: "5ff1d6d8-8cea-4a25-90d9-b575f4c99bc8",
-      multiverse_ids: [],
+      multiverse_ids: [457398],
       mtgo_id: 71548,
+      arena_id: 69402,
       tcgplayer_id: 183345,
       name: "Plaza of Harmony",
       lang: "en",
@@ -15427,7 +16288,7 @@ export const rna = {
       cmc: 0.0,
       type_line: "Land",
       oracle_text:
-        "When Plaza of Harmony enters the battlefield, if you control two or more Gates, you gain 3 life.\n{T}: Add {C}.\n{T}: Add one mana of any type a Gate you control could produce.",
+        "When Plaza of Harmony enters the battlefield, if you control two or more Gates, you gain 3 life.\n{T}: Add {C}.\n{T}: Add one mana of any type that a Gate you control could produce.",
       colors: [],
       color_identity: [],
       legalities: {
@@ -15472,8 +16333,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.69",
+      usd: "0.55",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457398",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Plaza+of+Harmony\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Plaza+of+Harmony",
@@ -15493,8 +16356,9 @@ export const rna = {
       object: "card",
       id: "724fd1ea-05ad-497c-9989-825ada48e684",
       oracle_id: "275d0b90-a8d6-4388-b7db-34615287f532",
-      multiverse_ids: [],
+      multiverse_ids: [457189],
       mtgo_id: 71090,
+      arena_id: 69173,
       tcgplayer_id: 182960,
       name: "Precognitive Perception",
       lang: "en",
@@ -15570,8 +16434,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "2.19",
+      usd: "1.79",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457189",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Precognitive+Perception\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Precognitive+Perception",
@@ -15591,8 +16457,9 @@ export const rna = {
       object: "card",
       id: "e3378fe8-3355-48aa-90d4-9cb739200160",
       oracle_id: "2ad8ff62-d090-4835-9274-3b755ba0f8e6",
-      multiverse_ids: [],
+      multiverse_ids: [457227],
       mtgo_id: 71166,
+      arena_id: 69211,
       tcgplayer_id: 183311,
       name: "Priest of Forgotten Gods",
       lang: "en",
@@ -15670,8 +16537,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "2.65",
+      usd: "2.05",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457227",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Priest+of+Forgotten+Gods\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Priest+of+Forgotten+Gods",
@@ -15691,8 +16560,9 @@ export const rna = {
       object: "card",
       id: "84abfc59-10a7-4cb5-9cdd-81797116c810",
       oracle_id: "b543bfa2-0174-4dd8-9ee6-09b92fb44934",
-      multiverse_ids: [],
+      multiverse_ids: [457339],
       mtgo_id: 71390,
+      arena_id: 69323,
       tcgplayer_id: 182997,
       name: "Prime Speaker Vannifar",
       lang: "en",
@@ -15769,8 +16639,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "15.38",
+      usd: "15.06",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457339",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Prime+Speaker+Vannifar\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Prime+Speaker+Vannifar",
@@ -15790,8 +16662,9 @@ export const rna = {
       object: "card",
       id: "c5382fc4-3384-449e-a83f-43a59158d55b",
       oracle_id: "0eabe5e9-cb03-4481-9360-5e79eccd0631",
-      multiverse_ids: [],
+      multiverse_ids: [457161],
       mtgo_id: 71034,
+      arena_id: 69145,
       tcgplayer_id: 183381,
       name: "Prowling Caracal",
       lang: "en",
@@ -15868,8 +16741,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.15",
+      usd: "0.12",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457161",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Prowling+Caracal\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Prowling+Caracal",
@@ -15889,8 +16764,9 @@ export const rna = {
       object: "card",
       id: "11ee2c64-68f1-434b-8092-ae80d6575666",
       oracle_id: "06b60766-a1fb-4ed0-93f6-8423008f75b4",
-      multiverse_ids: [],
+      multiverse_ids: [457190],
       mtgo_id: 71092,
+      arena_id: 69174,
       tcgplayer_id: 183364,
       name: "Prying Eyes",
       lang: "en",
@@ -15965,7 +16841,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457190",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Prying+Eyes\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Prying+Eyes",
@@ -15985,8 +16864,9 @@ export const rna = {
       object: "card",
       id: "280f2a85-1900-460b-a768-164fc2dea636",
       oracle_id: "00187de2-bc48-4137-97d8-a9a0fafc76c1",
-      multiverse_ids: [],
+      multiverse_ids: [457191],
       mtgo_id: 71094,
+      arena_id: 69175,
       tcgplayer_id: 183217,
       name: "Pteramander",
       lang: "en",
@@ -16065,6 +16945,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.46",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457191",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Pteramander\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Pteramander",
@@ -16084,8 +16966,9 @@ export const rna = {
       object: "card",
       id: "ee0ba01b-de96-4f8f-9405-ff3ad288afac",
       oracle_id: "fa1b722a-109e-4a43-bd7b-818292728cb3",
-      multiverse_ids: [],
+      multiverse_ids: [457192],
       mtgo_id: 71096,
+      arena_id: 69176,
       tcgplayer_id: 183081,
       name: "Quench",
       lang: "en",
@@ -16159,8 +17042,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.23",
+      usd: "0.17",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457192",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Quench\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Quench",
@@ -16180,8 +17065,9 @@ export const rna = {
       object: "card",
       id: "bf8dad4d-bc4f-46fb-892c-dbf6481cdc46",
       oracle_id: "2e7a03ac-44bb-45f1-b209-85fc3b6e90d3",
-      multiverse_ids: [],
+      multiverse_ids: [457340],
       mtgo_id: 71392,
+      arena_id: 69324,
       tcgplayer_id: 182136,
       name: "Rafter Demon",
       lang: "en",
@@ -16258,8 +17144,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.08",
+      usd: "0.09",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457340",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Rafter+Demon\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Rafter+Demon",
@@ -16279,8 +17167,9 @@ export const rna = {
       object: "card",
       id: "cb13420d-d295-4000-9c38-fa5d10e06ece",
       oracle_id: "91b8c0bc-2599-4423-a23f-5dc95b23cf25",
-      multiverse_ids: [],
+      multiverse_ids: [460004],
       mtgo_id: 70994,
+      arena_id: 69418,
       tcgplayer_id: 183306,
       name: "Ragefire",
       lang: "en",
@@ -16353,7 +17242,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
+      usd: "0.54",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460004",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Ragefire\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Ragefire",
@@ -16373,8 +17265,9 @@ export const rna = {
       object: "card",
       id: "d819a944-0b3e-4e26-87da-2417081928e7",
       oracle_id: "f81327c2-a0e4-475d-bb89-8a42b1ddc93c",
-      multiverse_ids: [],
+      multiverse_ids: [457341],
       mtgo_id: 71394,
+      arena_id: 69325,
       tcgplayer_id: 182119,
       name: "Rakdos Firewheeler",
       lang: "en",
@@ -16452,8 +17345,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "0.12",
+      usd: "0.10",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457341",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Rakdos+Firewheeler\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Rakdos+Firewheeler",
@@ -16473,8 +17368,9 @@ export const rna = {
       object: "card",
       id: "26f7e55d-d4c9-4755-ab87-a592ba3fb64f",
       oracle_id: "361f534b-39d1-4421-b5a8-d3813c62f86d",
-      multiverse_ids: [],
+      multiverse_ids: [457399],
       mtgo_id: 71550,
+      arena_id: 69403,
       name: "Rakdos Guildgate",
       lang: "en",
       released_at: "2019-01-25",
@@ -16486,17 +17382,17 @@ export const rna = {
       highres_image: false,
       image_uris: {
         small:
-          "https://img.scryfall.com/cards/small/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1546514048",
+          "https://img.scryfall.com/cards/small/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1547579529",
         normal:
-          "https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1546514048",
+          "https://img.scryfall.com/cards/normal/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1547579529",
         large:
-          "https://img.scryfall.com/cards/large/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1546514048",
+          "https://img.scryfall.com/cards/large/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1547579529",
         png:
-          "https://img.scryfall.com/cards/png/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.png?1546514048",
+          "https://img.scryfall.com/cards/png/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.png?1547579529",
         art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1546514048",
+          "https://img.scryfall.com/cards/art_crop/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1547579529",
         border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1546514048"
+          "https://img.scryfall.com/cards/border_crop/front/2/6/26f7e55d-d4c9-4755-ab87-a592ba3fb64f.jpg?1547579529"
       },
       mana_cost: "",
       cmc: 0.0,
@@ -16550,8 +17446,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      edhrec_rank: 573,
+      edhrec_rank: 571,
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457399",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Rakdos+Guildgate\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Rakdos+Guildgate",
@@ -16571,8 +17469,9 @@ export const rna = {
       object: "card",
       id: "4fd60d9b-2282-4b32-9bff-efb2bcf87d22",
       oracle_id: "ab784412-0722-4501-9aa0-fd68d307f6fd",
-      multiverse_ids: [],
+      multiverse_ids: [457381],
       mtgo_id: 71514,
+      arena_id: 69385,
       tcgplayer_id: 182837,
       name: "Rakdos Locket",
       lang: "en",
@@ -16651,6 +17550,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457381",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Rakdos+Locket\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Rakdos+Locket",
@@ -16670,8 +17571,9 @@ export const rna = {
       object: "card",
       id: "5ed534af-e16a-4d1d-8884-938fc7e13ca8",
       oracle_id: "c696d82e-6dee-4766-bc08-33af00f61717",
-      multiverse_ids: [],
+      multiverse_ids: [457342],
       mtgo_id: 71396,
+      arena_id: 69326,
       tcgplayer_id: 183180,
       name: "Rakdos Roustabout",
       lang: "en",
@@ -16752,6 +17654,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.20",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457342",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Rakdos+Roustabout\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Rakdos+Roustabout",
@@ -16771,8 +17675,9 @@ export const rna = {
       object: "card",
       id: "4e3c30c7-c52e-41a0-b7c2-21d39c05160b",
       oracle_id: "03a4b997-4738-41a9-933f-e1f765e3a75a",
-      multiverse_ids: [],
+      multiverse_ids: [457343],
       mtgo_id: 71398,
+      arena_id: 69327,
       tcgplayer_id: 182964,
       name: "Rakdos, the Showstopper",
       lang: "en",
@@ -16850,8 +17755,10 @@ export const rna = {
       frame_effect: "",
       full_art: false,
       story_spotlight: false,
-      usd: "4.29",
+      usd: "4.13",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457343",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Rakdos%2C+the+Showstopper\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Rakdos%2C+the+Showstopper",
@@ -16871,8 +17778,9 @@ export const rna = {
       object: "card",
       id: "2822aff3-9985-424b-9f19-b49e987c25e4",
       oracle_id: "2047a613-809d-4a47-9c78-f58a380ba18d",
-      multiverse_ids: [],
+      multiverse_ids: [457228],
       mtgo_id: 71168,
+      arena_id: 69212,
       tcgplayer_id: 183431,
       name: "Rakdos Trumpeter",
       lang: "en",
@@ -16953,6 +17861,8 @@ export const rna = {
       story_spotlight: false,
       usd: "0.15",
       related_uris: {
+        gatherer:
+          "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=457228",
         tcgplayer_decks:
           "https://decks.tcgplayer.com/magic/deck/search?contains=Rakdos+Trumpeter\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
         edhrec: "http://edhrec.com/route/?cc=Rakdos+Trumpeter",
@@ -16966,400 +17876,6 @@ export const rna = {
           "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Rakdos+Trumpeter",
         cardhoarder:
           "https://www.cardhoarder.com/cards/71168?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
-      }
-    },
-    {
-      object: "card",
-      id: "d0798546-1ef4-485e-b094-cba12a12c67c",
-      oracle_id: "9d8d88dd-c266-4b7d-a756-ac2d8976ca89",
-      multiverse_ids: [],
-      mtgo_id: 71036,
-      tcgplayer_id: 183382,
-      name: "Rally to Battle",
-      lang: "en",
-      released_at: "2019-01-25",
-      uri:
-        "https://api.scryfall.com/cards/d0798546-1ef4-485e-b094-cba12a12c67c",
-      scryfall_uri:
-        "https://scryfall.com/card/rna/18/rally-to-battle?utm_source=api",
-      layout: "normal",
-      highres_image: false,
-      image_uris: {
-        small:
-          "https://img.scryfall.com/cards/small/front/d/0/d0798546-1ef4-485e-b094-cba12a12c67c.jpg?1547310303",
-        normal:
-          "https://img.scryfall.com/cards/normal/front/d/0/d0798546-1ef4-485e-b094-cba12a12c67c.jpg?1547310303",
-        large:
-          "https://img.scryfall.com/cards/large/front/d/0/d0798546-1ef4-485e-b094-cba12a12c67c.jpg?1547310303",
-        png:
-          "https://img.scryfall.com/cards/png/front/d/0/d0798546-1ef4-485e-b094-cba12a12c67c.png?1547310303",
-        art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/d/0/d0798546-1ef4-485e-b094-cba12a12c67c.jpg?1547310303",
-        border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/d/0/d0798546-1ef4-485e-b094-cba12a12c67c.jpg?1547310303"
-      },
-      mana_cost: "{3}{W}",
-      cmc: 4.0,
-      type_line: "Instant",
-      oracle_text:
-        "Creatures you control get +1/+3 until end of turn. Untap them.",
-      colors: ["W"],
-      color_identity: ["W"],
-      legalities: {
-        standard: "not_legal",
-        future: "legal",
-        frontier: "not_legal",
-        modern: "not_legal",
-        legacy: "not_legal",
-        pauper: "not_legal",
-        vintage: "not_legal",
-        penny: "not_legal",
-        commander: "not_legal",
-        "1v1": "not_legal",
-        duel: "not_legal",
-        brawl: "not_legal"
-      },
-      games: ["arena", "mtgo", "paper"],
-      reserved: false,
-      foil: true,
-      nonfoil: true,
-      oversized: false,
-      promo: false,
-      reprint: false,
-      set: "rna",
-      set_name: "Ravnica Allegiance",
-      set_uri:
-        "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
-      set_search_uri:
-        "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Arna\u0026unique=prints",
-      scryfall_set_uri: "https://scryfall.com/sets/rna?utm_source=api",
-      rulings_uri:
-        "https://api.scryfall.com/cards/d0798546-1ef4-485e-b094-cba12a12c67c/rulings",
-      prints_search_uri:
-        "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A9d8d88dd-c266-4b7d-a756-ac2d8976ca89\u0026unique=prints",
-      collector_number: "18",
-      digital: false,
-      rarity: "uncommon",
-      flavor_text:
-        "The guildmasters loom large in the political sphere, but in the end, the rulers of Ravnica are its people.",
-      illustration_id: "1d4ba865-a165-4690-9567-bf2d9959ea15",
-      artist: "Ben Wootten",
-      border_color: "black",
-      frame: "2015",
-      frame_effect: "",
-      full_art: false,
-      story_spotlight: false,
-      usd: "0.12",
-      related_uris: {
-        tcgplayer_decks:
-          "https://decks.tcgplayer.com/magic/deck/search?contains=Rally+to+Battle\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
-        edhrec: "http://edhrec.com/route/?cc=Rally+to+Battle",
-        mtgtop8:
-          "http://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Rally+to+Battle"
-      },
-      purchase_uris: {
-        tcgplayer:
-          "https://shop.tcgplayer.com/magic/ravnica-allegiance/rally-to-battle?partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
-        cardmarket:
-          "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Rally+to+Battle",
-        cardhoarder:
-          "https://www.cardhoarder.com/cards/71036?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
-      }
-    },
-    {
-      object: "card",
-      id: "28ebab7d-d03d-4473-aa9b-485aebb66433",
-      oracle_id: "5dc34e93-97e3-434b-9f12-f45c6d556f13",
-      multiverse_ids: [],
-      mtgo_id: 71268,
-      tcgplayer_id: 183041,
-      name: "Rampage of the Clans",
-      lang: "en",
-      released_at: "2019-01-25",
-      uri:
-        "https://api.scryfall.com/cards/28ebab7d-d03d-4473-aa9b-485aebb66433",
-      scryfall_uri:
-        "https://scryfall.com/card/rna/134/rampage-of-the-clans?utm_source=api",
-      layout: "normal",
-      highres_image: false,
-      image_uris: {
-        small:
-          "https://img.scryfall.com/cards/small/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.jpg?1547235021",
-        normal:
-          "https://img.scryfall.com/cards/normal/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.jpg?1547235021",
-        large:
-          "https://img.scryfall.com/cards/large/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.jpg?1547235021",
-        png:
-          "https://img.scryfall.com/cards/png/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.png?1547235021",
-        art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.jpg?1547235021",
-        border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/2/8/28ebab7d-d03d-4473-aa9b-485aebb66433.jpg?1547235021"
-      },
-      mana_cost: "{3}{G}",
-      cmc: 4.0,
-      type_line: "Instant",
-      oracle_text:
-        "Destroy all artifacts and enchantments. For each permanent destroyed this way, its controller creates a 3/3 green Centaur creature token.",
-      colors: ["G"],
-      color_identity: ["G"],
-      legalities: {
-        standard: "not_legal",
-        future: "legal",
-        frontier: "not_legal",
-        modern: "not_legal",
-        legacy: "not_legal",
-        pauper: "not_legal",
-        vintage: "not_legal",
-        penny: "not_legal",
-        commander: "not_legal",
-        "1v1": "not_legal",
-        duel: "not_legal",
-        brawl: "not_legal"
-      },
-      games: ["arena", "mtgo", "paper"],
-      reserved: false,
-      foil: true,
-      nonfoil: true,
-      oversized: false,
-      promo: false,
-      reprint: false,
-      set: "rna",
-      set_name: "Ravnica Allegiance",
-      set_uri:
-        "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
-      set_search_uri:
-        "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Arna\u0026unique=prints",
-      scryfall_set_uri: "https://scryfall.com/sets/rna?utm_source=api",
-      rulings_uri:
-        "https://api.scryfall.com/cards/28ebab7d-d03d-4473-aa9b-485aebb66433/rulings",
-      prints_search_uri:
-        "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A5dc34e93-97e3-434b-9f12-f45c6d556f13\u0026unique=prints",
-      collector_number: "134",
-      digital: false,
-      rarity: "rare",
-      watermark: "planeswalker",
-      flavor_text: '"Rage! Rage until the whole world burns!"',
-      illustration_id: "5904ccb3-7b18-4fcc-91a4-ecd5fac9cd2f",
-      artist: "Sidharth Chaturvedi",
-      border_color: "black",
-      frame: "2015",
-      frame_effect: "",
-      full_art: false,
-      story_spotlight: true,
-      usd: "0.75",
-      related_uris: {
-        tcgplayer_decks:
-          "https://decks.tcgplayer.com/magic/deck/search?contains=Rampage+of+the+Clans\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
-        edhrec: "http://edhrec.com/route/?cc=Rampage+of+the+Clans",
-        mtgtop8:
-          "http://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Rampage+of+the+Clans"
-      },
-      purchase_uris: {
-        tcgplayer:
-          "https://shop.tcgplayer.com/magic/ravnica-allegiance/rampage-of-the-clans?partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
-        cardmarket:
-          "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Rampage+of+the+Clans",
-        cardhoarder:
-          "https://www.cardhoarder.com/cards/71268?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
-      }
-    },
-    {
-      object: "card",
-      id: "12c1b820-0f06-41f6-804f-5c98f60c1529",
-      oracle_id: "b867deb4-a088-492e-95fe-487071ebfe8d",
-      multiverse_ids: [],
-      mtgo_id: 71270,
-      tcgplayer_id: 183423,
-      name: "Rampaging Rendhorn",
-      lang: "en",
-      released_at: "2019-01-25",
-      uri:
-        "https://api.scryfall.com/cards/12c1b820-0f06-41f6-804f-5c98f60c1529",
-      scryfall_uri:
-        "https://scryfall.com/card/rna/135/rampaging-rendhorn?utm_source=api",
-      layout: "normal",
-      highres_image: false,
-      image_uris: {
-        small:
-          "https://img.scryfall.com/cards/small/front/1/2/12c1b820-0f06-41f6-804f-5c98f60c1529.jpg?1547235026",
-        normal:
-          "https://img.scryfall.com/cards/normal/front/1/2/12c1b820-0f06-41f6-804f-5c98f60c1529.jpg?1547235026",
-        large:
-          "https://img.scryfall.com/cards/large/front/1/2/12c1b820-0f06-41f6-804f-5c98f60c1529.jpg?1547235026",
-        png:
-          "https://img.scryfall.com/cards/png/front/1/2/12c1b820-0f06-41f6-804f-5c98f60c1529.png?1547235026",
-        art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/1/2/12c1b820-0f06-41f6-804f-5c98f60c1529.jpg?1547235026",
-        border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/1/2/12c1b820-0f06-41f6-804f-5c98f60c1529.jpg?1547235026"
-      },
-      mana_cost: "{4}{G}",
-      cmc: 5.0,
-      type_line: "Creature — Beast",
-      oracle_text:
-        "Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)",
-      power: "4",
-      toughness: "4",
-      colors: ["G"],
-      color_identity: ["G"],
-      legalities: {
-        standard: "not_legal",
-        future: "legal",
-        frontier: "not_legal",
-        modern: "not_legal",
-        legacy: "not_legal",
-        pauper: "not_legal",
-        vintage: "not_legal",
-        penny: "not_legal",
-        commander: "not_legal",
-        "1v1": "not_legal",
-        duel: "not_legal",
-        brawl: "not_legal"
-      },
-      games: ["arena", "mtgo", "paper"],
-      reserved: false,
-      foil: true,
-      nonfoil: true,
-      oversized: false,
-      promo: false,
-      reprint: false,
-      set: "rna",
-      set_name: "Ravnica Allegiance",
-      set_uri:
-        "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
-      set_search_uri:
-        "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Arna\u0026unique=prints",
-      scryfall_set_uri: "https://scryfall.com/sets/rna?utm_source=api",
-      rulings_uri:
-        "https://api.scryfall.com/cards/12c1b820-0f06-41f6-804f-5c98f60c1529/rulings",
-      prints_search_uri:
-        "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Ab867deb4-a088-492e-95fe-487071ebfe8d\u0026unique=prints",
-      collector_number: "135",
-      digital: false,
-      rarity: "common",
-      watermark: "gruul",
-      flavor_text: "Tumult is its natural habitat.",
-      illustration_id: "5f6498c1-e8a1-4d1d-86aa-26d9c39a8fd1",
-      artist: "Ben Wootten",
-      border_color: "black",
-      frame: "2015",
-      frame_effect: "",
-      full_art: false,
-      story_spotlight: false,
-      related_uris: {
-        tcgplayer_decks:
-          "https://decks.tcgplayer.com/magic/deck/search?contains=Rampaging+Rendhorn\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
-        edhrec: "http://edhrec.com/route/?cc=Rampaging+Rendhorn",
-        mtgtop8:
-          "http://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Rampaging+Rendhorn"
-      },
-      purchase_uris: {
-        tcgplayer:
-          "https://shop.tcgplayer.com/magic/ravnica-allegiance/rampaging-rendhorn?partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
-        cardmarket:
-          "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Rampaging+Rendhorn",
-        cardhoarder:
-          "https://www.cardhoarder.com/cards/71270?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
-      }
-    },
-    {
-      object: "card",
-      id: "6d5a6085-bb5d-412e-8831-757996bbc8fb",
-      oracle_id: "40b872b5-3ec2-4fcc-b152-91966f67c2be",
-      multiverse_ids: [],
-      mtgo_id: 71400,
-      tcgplayer_id: 182959,
-      name: "Ravager Wurm",
-      lang: "en",
-      released_at: "2019-01-25",
-      uri:
-        "https://api.scryfall.com/cards/6d5a6085-bb5d-412e-8831-757996bbc8fb",
-      scryfall_uri:
-        "https://scryfall.com/card/rna/200/ravager-wurm?utm_source=api",
-      layout: "normal",
-      highres_image: false,
-      image_uris: {
-        small:
-          "https://img.scryfall.com/cards/small/front/6/d/6d5a6085-bb5d-412e-8831-757996bbc8fb.jpg?1547235374",
-        normal:
-          "https://img.scryfall.com/cards/normal/front/6/d/6d5a6085-bb5d-412e-8831-757996bbc8fb.jpg?1547235374",
-        large:
-          "https://img.scryfall.com/cards/large/front/6/d/6d5a6085-bb5d-412e-8831-757996bbc8fb.jpg?1547235374",
-        png:
-          "https://img.scryfall.com/cards/png/front/6/d/6d5a6085-bb5d-412e-8831-757996bbc8fb.png?1547235374",
-        art_crop:
-          "https://img.scryfall.com/cards/art_crop/front/6/d/6d5a6085-bb5d-412e-8831-757996bbc8fb.jpg?1547235374",
-        border_crop:
-          "https://img.scryfall.com/cards/border_crop/front/6/d/6d5a6085-bb5d-412e-8831-757996bbc8fb.jpg?1547235374"
-      },
-      mana_cost: "{3}{R}{G}{G}",
-      cmc: 6.0,
-      type_line: "Creature — Wurm",
-      oracle_text:
-        "Riot (This creature enters the battlefield with your choice of a +1/+1 counter or haste.)\nWhen Ravager Wurm enters the battlefield, choose up to one —\n• Ravager Wurm fights target creature you don't control.\n• Destroy target land with an activated ability that isn't a mana ability.",
-      power: "4",
-      toughness: "5",
-      colors: ["G", "R"],
-      color_identity: ["G", "R"],
-      legalities: {
-        standard: "not_legal",
-        future: "legal",
-        frontier: "not_legal",
-        modern: "not_legal",
-        legacy: "not_legal",
-        pauper: "not_legal",
-        vintage: "not_legal",
-        penny: "not_legal",
-        commander: "not_legal",
-        "1v1": "not_legal",
-        duel: "not_legal",
-        brawl: "not_legal"
-      },
-      games: ["arena", "mtgo", "paper"],
-      reserved: false,
-      foil: true,
-      nonfoil: true,
-      oversized: false,
-      promo: false,
-      reprint: false,
-      set: "rna",
-      set_name: "Ravnica Allegiance",
-      set_uri:
-        "https://api.scryfall.com/sets/97a7fd84-8d89-45a3-b48b-c951f6a3f9f1",
-      set_search_uri:
-        "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Arna\u0026unique=prints",
-      scryfall_set_uri: "https://scryfall.com/sets/rna?utm_source=api",
-      rulings_uri:
-        "https://api.scryfall.com/cards/6d5a6085-bb5d-412e-8831-757996bbc8fb/rulings",
-      prints_search_uri:
-        "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A40b872b5-3ec2-4fcc-b152-91966f67c2be\u0026unique=prints",
-      collector_number: "200",
-      digital: false,
-      rarity: "mythic",
-      watermark: "gruul",
-      illustration_id: "070bf2f2-c6c3-4344-a0d1-5d1d9378f6a2",
-      artist: "Svetlin Velinov",
-      border_color: "black",
-      frame: "2015",
-      frame_effect: "",
-      full_art: false,
-      story_spotlight: false,
-      usd: "4.45",
-      related_uris: {
-        tcgplayer_decks:
-          "https://decks.tcgplayer.com/magic/deck/search?contains=Ravager+Wurm\u0026page=1\u0026partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
-        edhrec: "http://edhrec.com/route/?cc=Ravager+Wurm",
-        mtgtop8:
-          "http://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Ravager+Wurm"
-      },
-      purchase_uris: {
-        tcgplayer:
-          "https://shop.tcgplayer.com/magic/ravnica-allegiance/ravager-wurm?partner=Scryfall\u0026utm_campaign=affiliate\u0026utm_medium=scryfall\u0026utm_source=scryfall",
-        cardmarket:
-          "https://www.cardmarket.com/en/Magic?mainPage=showSearchResult\u0026referrer=scryfall\u0026searchFor=Ravager+Wurm",
-        cardhoarder:
-          "https://www.cardhoarder.com/cards/71400?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
       }
     }
   ]
